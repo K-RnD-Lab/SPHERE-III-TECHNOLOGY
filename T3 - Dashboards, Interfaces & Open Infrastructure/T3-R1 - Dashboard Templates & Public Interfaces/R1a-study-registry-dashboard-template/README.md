@@ -22,6 +22,13 @@ This starter study is about interface and infrastructure design, not about any o
 - links to `README`, `report`, data, and live demos
 - simple indicators for reproducibility or readiness status
 
+## Current scaffold files
+
+- [`dashboard/index.html`](dashboard/index.html)
+- [`dashboard/styles.css`](dashboard/styles.css)
+- [`dashboard/app.js`](dashboard/app.js)
+- [`dashboard/data/registry.json`](dashboard/data/registry.json)
+
 ## Status
 
 Starter scaffold for a reusable public-interface pattern.

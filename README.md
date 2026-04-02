@@ -25,6 +25,13 @@ Biology-related technology is valid in this repo when the output is a reusable m
 - [`T2-R1a Study Readiness Scoring`](T2%20-%20Reproducibility,%20Scoring%20%26%20Method%20Systems/T2-R1%20-%20Research%20Gap%20Scoring/R1a-study-readiness-scoring/README.md)
 - [`T3-R1a Study Registry Dashboard Template`](T3%20-%20Dashboards,%20Interfaces%20%26%20Open%20Infrastructure/T3-R1%20-%20Dashboard%20Templates%20%26%20Public%20Interfaces/R1a-study-registry-dashboard-template/README.md)
 
+## Cross-sphere registry scaffold
+
+The first unified index across all three spheres lives here:
+
+- [`dashboard/index.html`](T3%20-%20Dashboards%2C%20Interfaces%20%26%20Open%20Infrastructure/T3-R1%20-%20Dashboard%20Templates%20%26%20Public%20Interfaces/R1a-study-registry-dashboard-template/dashboard/index.html)
+- [`dashboard/data/registry.json`](T3%20-%20Dashboards%2C%20Interfaces%20%26%20Open%20Infrastructure/T3-R1%20-%20Dashboard%20Templates%20%26%20Public%20Interfaces/R1a-study-registry-dashboard-template/dashboard/data/registry.json)
+
 ## Example directions
 
 - `T1`: reusable bioinformatics engines, literature mining tools, assay-support models

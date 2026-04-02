@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>K R&D Lab Study Registry</title>
+    <link rel="stylesheet" href="./styles.css">
+  </head>
+  <body>
+    <main class="page">
+      <section class="hero">
+        <p class="eyebrow">K R&D Lab</p>
+        <h1>Cross-Sphere Study Registry</h1>
+        <p class="lede">
+          A first public registry scaffold for browsing studies, starter cases, and reusable assets
+          across SCIENCE, ENTREPRENEURSHIP, and TECHNOLOGY.
+        </p>
+        <div class="hero-links">
+          <a href="https://github.com/K-RnD-Lab/SPHERE-I-SCIENCE" target="_blank" rel="noreferrer">SCIENCE</a>
+          <a href="https://github.com/K-RnD-Lab/SPHERE-II-ENTREPRENEURSHIP" target="_blank" rel="noreferrer">ENTREPRENEURSHIP</a>
+          <a href="https://github.com/K-RnD-Lab/SPHERE-III-TECHNOLOGY" target="_blank" rel="noreferrer">TECHNOLOGY</a>
+        </div>
+      </section>
+
+      <section class="controls">
+        <label class="search">
+          <span>Search</span>
+          <input id="search-input" type="search" placeholder="Search studies, tracks, or tags">
+        </label>
+        <label>
+          <span>Sphere</span>
+          <select id="sphere-filter">
+            <option value="all">All</option>
+          </select>
+        </label>
+        <label>
+          <span>Status</span>
+          <select id="status-filter">
+            <option value="all">All</option>
+          </select>
+        </label>
+      </section>
+
+      <section class="stats" id="stats"></section>
+
+      <section class="registry">
+        <div class="registry-header">
+          <h2>Registry Entries</h2>
+          <p id="result-count">Loading...</p>
+        </div>
+        <div id="registry-grid" class="registry-grid"></div>
+      </section>
+    </main>
+
+    <template id="card-template">
+      <article class="card">
+        <div class="card-top">
+          <span class="badge sphere"></span>
+          <span class="badge status"></span>
+        </div>
+        <h3 class="title"></h3>
+        <p class="summary"></p>
+        <dl class="meta">
+          <div>
+            <dt>Track</dt>
+            <dd class="track"></dd>
+          </div>
+          <div>
+            <dt>Type</dt>
+            <dd class="entry-type"></dd>
+          </div>
+          <div>
+            <dt>Tags</dt>
+            <dd class="tags"></dd>
+          </div>
+        </dl>
+        <div class="links"></div>
+      </article>
+    </template>
+
+    <script src="./app.js" defer></script>
+  </body>
+</html>

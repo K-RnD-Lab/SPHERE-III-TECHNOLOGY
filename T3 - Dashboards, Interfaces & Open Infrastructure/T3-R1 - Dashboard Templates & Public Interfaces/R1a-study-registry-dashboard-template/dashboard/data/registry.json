@@ -1,0 +1,226 @@
+[
+  {
+    "title": "SPHERE-I-SCIENCE",
+    "sphere": "science",
+    "track": "Root sphere repo",
+    "entryType": "repository",
+    "status": "active",
+    "summary": "Domain research map across biomedical, plant, agricultural, biochemical, neuroscience, ecological, and life-system lanes.",
+    "tags": ["science", "taxonomy", "readme", "research-map"],
+    "links": [
+      {
+        "label": "Repo",
+        "href": "https://github.com/K-RnD-Lab/SPHERE-I-SCIENCE"
+      },
+      {
+        "label": "README",
+        "href": "https://github.com/K-RnD-Lab/SPHERE-I-SCIENCE/blob/main/README.md"
+      }
+    ]
+  },
+  {
+    "title": "S1 Biomedical & Oncology",
+    "sphere": "science",
+    "track": "S1",
+    "entryType": "lane",
+    "status": "active",
+    "summary": "Current highest-density research lane covering genomics, RNA therapeutics, delivery systems, biomarkers, and rare oncology.",
+    "tags": ["oncology", "rna", "lnp", "biomarkers"],
+    "links": [
+      {
+        "label": "README",
+        "href": "https://github.com/K-RnD-Lab/SPHERE-I-SCIENCE/blob/main/S1%20%E2%80%94%20%F0%9F%A9%BA%20%20Biomedical%20%26%20Oncology/README.md"
+      },
+      {
+        "label": "Research Suite",
+        "href": "https://huggingface.co/spaces/K-RnD-Lab/Cancer-Research-Suite_03-2026"
+      }
+    ]
+  },
+  {
+    "title": "S7 K Life OS",
+    "sphere": "science",
+    "track": "S7",
+    "entryType": "lane",
+    "status": "active",
+    "summary": "Science-facing lane for measurable life systems, cognition, adaptive training, and longitudinal human-pattern research.",
+    "tags": ["life-systems", "education", "cognition", "longitudinal"],
+    "links": [
+      {
+        "label": "README",
+        "href": "https://github.com/K-RnD-Lab/SPHERE-I-SCIENCE/blob/main/S7%20%E2%80%94%20%F0%9F%93%9A%20K%20Life%20OS/README.md"
+      }
+    ]
+  },
+  {
+    "title": "SPHERE-II-ENTREPRENEURSHIP",
+    "sphere": "entrepreneurship",
+    "track": "Root sphere repo",
+    "entryType": "repository",
+    "status": "active",
+    "summary": "Applied research for venture design, audience logic, ecosystem mapping, and public operational cases.",
+    "tags": ["entrepreneurship", "market", "ecosystem", "public-cases"],
+    "links": [
+      {
+        "label": "Repo",
+        "href": "https://github.com/K-RnD-Lab/SPHERE-II-ENTREPRENEURSHIP"
+      },
+      {
+        "label": "README",
+        "href": "https://github.com/K-RnD-Lab/SPHERE-II-ENTREPRENEURSHIP/blob/main/README.md"
+      }
+    ]
+  },
+  {
+    "title": "Lab-to-Market Opportunity Map",
+    "sphere": "entrepreneurship",
+    "track": "E1",
+    "entryType": "starter study",
+    "status": "scaffold",
+    "summary": "Opportunity framing for translational outputs coming out of K R&D Lab science and tooling layers.",
+    "tags": ["opportunity-map", "translation", "venture", "positioning"],
+    "links": [
+      {
+        "label": "README",
+        "href": "https://github.com/K-RnD-Lab/SPHERE-II-ENTREPRENEURSHIP/blob/main/E1%20-%20Venture,%20Product%20%26%20Opportunity%20Systems/E1-R1%20-%20Opportunity%20Mapping%20%26%20Problem%20Framing/R1a-lab-to-market-opportunity-map/README.md"
+      },
+      {
+        "label": "Report",
+        "href": "https://github.com/K-RnD-Lab/SPHERE-II-ENTREPRENEURSHIP/blob/main/E1%20-%20Venture,%20Product%20%26%20Opportunity%20Systems/E1-R1%20-%20Opportunity%20Mapping%20%26%20Problem%20Framing/R1a-lab-to-market-opportunity-map/report.md"
+      }
+    ]
+  },
+  {
+    "title": "Translational Audience Segments",
+    "sphere": "entrepreneurship",
+    "track": "E2",
+    "entryType": "starter study",
+    "status": "scaffold",
+    "summary": "First audience segmentation map for researchers, translational programs, founders, and learners interacting with lab outputs.",
+    "tags": ["audience", "segmentation", "messaging", "translation"],
+    "links": [
+      {
+        "label": "README",
+        "href": "https://github.com/K-RnD-Lab/SPHERE-II-ENTREPRENEURSHIP/blob/main/E2%20-%20Market,%20Audience%20%26%20Behavioral%20Intelligence/E2-R1%20-%20Audience%20Segmentation/R1a-translational-audience-segments/README.md"
+      },
+      {
+        "label": "Report",
+        "href": "https://github.com/K-RnD-Lab/SPHERE-II-ENTREPRENEURSHIP/blob/main/E2%20-%20Market,%20Audience%20%26%20Behavioral%20Intelligence/E2-R1%20-%20Audience%20Segmentation/R1a-translational-audience-segments/report.md"
+      }
+    ]
+  },
+  {
+    "title": "Bio-AI Translation Landscape",
+    "sphere": "entrepreneurship",
+    "track": "E3",
+    "entryType": "starter study",
+    "status": "scaffold",
+    "summary": "Ecosystem map for conferences, communities, partners, and translational signals around the lab.",
+    "tags": ["ecosystem", "signals", "partnerships", "conferences"],
+    "links": [
+      {
+        "label": "README",
+        "href": "https://github.com/K-RnD-Lab/SPHERE-II-ENTREPRENEURSHIP/blob/main/E3%20-%20Ecosystem,%20Partnerships%20%26%20External%20Signals/E3-R1%20-%20Ecosystem%20Mapping/R1a-bio-ai-translation-landscape/README.md"
+      },
+      {
+        "label": "Report",
+        "href": "https://github.com/K-RnD-Lab/SPHERE-II-ENTREPRENEURSHIP/blob/main/E3%20-%20Ecosystem,%20Partnerships%20%26%20External%20Signals/E3-R1%20-%20Ecosystem%20Mapping/R1a-bio-ai-translation-landscape/report.md"
+      }
+    ]
+  },
+  {
+    "title": "Three-Sphere Research Ops Case",
+    "sphere": "entrepreneurship",
+    "track": "E4-A",
+    "entryType": "public case",
+    "status": "active",
+    "summary": "A real systems case documenting how the lab was structured across research, entrepreneurship, technology, GitHub, and Hugging Face.",
+    "tags": ["public-case", "ops", "systems", "sync"],
+    "links": [
+      {
+        "label": "README",
+        "href": "https://github.com/K-RnD-Lab/SPHERE-II-ENTREPRENEURSHIP/blob/main/E4%20-%20Applied%20Investigations%20%26%20Public%20Cases/E4-A%20-%20Systems%20%26%20Workflow%20Cases/R1a-three-sphere-research-ops-case/README.md"
+      },
+      {
+        "label": "Report",
+        "href": "https://github.com/K-RnD-Lab/SPHERE-II-ENTREPRENEURSHIP/blob/main/E4%20-%20Applied%20Investigations%20%26%20Public%20Cases/E4-A%20-%20Systems%20%26%20Workflow%20Cases/R1a-three-sphere-research-ops-case/report.md"
+      }
+    ]
+  },
+  {
+    "title": "SPHERE-III-TECHNOLOGY",
+    "sphere": "technology",
+    "track": "Root sphere repo",
+    "entryType": "repository",
+    "status": "active",
+    "summary": "Reusable tooling layer for pipelines, scoring systems, dashboards, registries, and open infrastructure.",
+    "tags": ["technology", "tooling", "scoring", "infrastructure"],
+    "links": [
+      {
+        "label": "Repo",
+        "href": "https://github.com/K-RnD-Lab/SPHERE-III-TECHNOLOGY"
+      },
+      {
+        "label": "README",
+        "href": "https://github.com/K-RnD-Lab/SPHERE-III-TECHNOLOGY/blob/main/README.md"
+      }
+    ]
+  },
+  {
+    "title": "Bioinformatics Pipeline Template",
+    "sphere": "technology",
+    "track": "T1",
+    "entryType": "starter study",
+    "status": "scaffold",
+    "summary": "Reusable method packaging for analytical engines that can support multiple science lanes without reimplementation.",
+    "tags": ["pipeline", "bioinformatics", "reuse", "template"],
+    "links": [
+      {
+        "label": "README",
+        "href": "https://github.com/K-RnD-Lab/SPHERE-III-TECHNOLOGY/blob/main/T1%20-%20Research%20Tools,%20ML%20%26%20Analytical%20Engines/T1-R1%20-%20Reusable%20Analytical%20Engines/R1a-bioinformatics-pipeline-template/README.md"
+      },
+      {
+        "label": "Report",
+        "href": "https://github.com/K-RnD-Lab/SPHERE-III-TECHNOLOGY/blob/main/T1%20-%20Research%20Tools,%20ML%20%26%20Analytical%20Engines/T1-R1%20-%20Reusable%20Analytical%20Engines/R1a-bioinformatics-pipeline-template/report.md"
+      }
+    ]
+  },
+  {
+    "title": "Study Readiness Scoring",
+    "sphere": "technology",
+    "track": "T2",
+    "entryType": "starter study",
+    "status": "scaffold",
+    "summary": "A reusable framework for scoring how close a study is to stronger reproducibility or experimental handoff.",
+    "tags": ["scoring", "reproducibility", "readiness", "confidence"],
+    "links": [
+      {
+        "label": "README",
+        "href": "https://github.com/K-RnD-Lab/SPHERE-III-TECHNOLOGY/blob/main/T2%20-%20Reproducibility,%20Scoring%20%26%20Method%20Systems/T2-R1%20-%20Research%20Gap%20Scoring/R1a-study-readiness-scoring/README.md"
+      },
+      {
+        "label": "Report",
+        "href": "https://github.com/K-RnD-Lab/SPHERE-III-TECHNOLOGY/blob/main/T2%20-%20Reproducibility,%20Scoring%20%26%20Method%20Systems/T2-R1%20-%20Research%20Gap%20Scoring/R1a-study-readiness-scoring/report.md"
+      }
+    ]
+  },
+  {
+    "title": "Study Registry Dashboard Template",
+    "sphere": "technology",
+    "track": "T3",
+    "entryType": "dashboard scaffold",
+    "status": "active",
+    "summary": "A first reusable dashboard pattern for browsing studies and starter assets across all three spheres.",
+    "tags": ["dashboard", "registry", "index", "public-interface"],
+    "links": [
+      {
+        "label": "README",
+        "href": "https://github.com/K-RnD-Lab/SPHERE-III-TECHNOLOGY/blob/main/T3%20-%20Dashboards,%20Interfaces%20%26%20Open%20Infrastructure/T3-R1%20-%20Dashboard%20Templates%20%26%20Public%20Interfaces/R1a-study-registry-dashboard-template/README.md"
+      },
+      {
+        "label": "Dashboard Code",
+        "href": "https://github.com/K-RnD-Lab/SPHERE-III-TECHNOLOGY/tree/main/T3%20-%20Dashboards,%20Interfaces%20%26%20Open%20Infrastructure/T3-R1%20-%20Dashboard%20Templates%20%26%20Public%20Interfaces/R1a-study-registry-dashboard-template/dashboard"
+      }
+    ]
+  }
+]
