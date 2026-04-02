@@ -15,6 +15,11 @@
           A first public registry scaffold for browsing studies, starter cases, and reusable assets
           across SCIENCE, ENTREPRENEURSHIP, and TECHNOLOGY.
         </p>
+        <p class="sublede">
+          Each entry keeps one primary home sphere while also showing hybrid combos such as
+          <strong>S+T</strong> or <strong>S+E+T</strong> when the work crosses research, venture, and
+          tooling layers.
+        </p>
         <div class="hero-links">
           <a href="https://github.com/K-RnD-Lab/SPHERE-I-SCIENCE" target="_blank" rel="noreferrer">SCIENCE</a>
           <a href="https://github.com/K-RnD-Lab/SPHERE-II-ENTREPRENEURSHIP" target="_blank" rel="noreferrer">ENTREPRENEURSHIP</a>
@@ -28,14 +33,26 @@
           <input id="search-input" type="search" placeholder="Search studies, tracks, or tags">
         </label>
         <label>
-          <span>Sphere</span>
+          <span>Home sphere</span>
           <select id="sphere-filter">
+            <option value="all">All</option>
+          </select>
+        </label>
+        <label>
+          <span>Hybrid combo</span>
+          <select id="combo-filter">
             <option value="all">All</option>
           </select>
         </label>
         <label>
           <span>Status</span>
           <select id="status-filter">
+            <option value="all">All</option>
+          </select>
+        </label>
+        <label>
+          <span>Artifact type</span>
+          <select id="artifact-filter">
             <option value="all">All</option>
           </select>
         </label>
@@ -48,6 +65,9 @@
           <h2>Registry Entries</h2>
           <p id="result-count">Loading...</p>
         </div>
+        <p class="registry-note">
+          Hugging Face is treated as a delivery layer for live demos and interfaces, not as a fourth sphere.
+        </p>
         <div id="registry-grid" class="registry-grid"></div>
       </section>
     </main>
@@ -56,18 +76,31 @@
       <article class="card">
         <div class="card-top">
           <span class="badge sphere"></span>
+          <span class="badge combo"></span>
           <span class="badge status"></span>
         </div>
         <h3 class="title"></h3>
         <p class="summary"></p>
         <dl class="meta">
           <div>
-            <dt>Track</dt>
+            <dt>Home track</dt>
             <dd class="track"></dd>
           </div>
           <div>
-            <dt>Type</dt>
-            <dd class="entry-type"></dd>
+            <dt>Artifact</dt>
+            <dd class="artifact-type"></dd>
+          </div>
+          <div>
+            <dt>Secondary spheres</dt>
+            <dd class="secondary-spheres"></dd>
+          </div>
+          <div>
+            <dt>Delivery</dt>
+            <dd class="delivery-layers"></dd>
+          </div>
+          <div>
+            <dt>Validation</dt>
+            <dd class="validation-stage"></dd>
           </div>
           <div>
             <dt>Tags</dt>

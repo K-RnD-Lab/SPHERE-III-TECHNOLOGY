@@ -8,6 +8,19 @@ How should K R&D Lab package reusable analytical engines so the same method can 
 
 This starter study is about method packaging, not about any one biological conclusion.
 
+## Registry Metadata
+
+```yaml
+primary_sphere: technology
+secondary_spheres:
+  - science
+combo: S+T
+artifact_type: tool
+delivery_layers:
+  - GitHub
+validation_stage: prototype
+```
+
 ## Method
 
 1. Identify common reusable pipeline components across variant, RNA, biomarker, and delivery studies.

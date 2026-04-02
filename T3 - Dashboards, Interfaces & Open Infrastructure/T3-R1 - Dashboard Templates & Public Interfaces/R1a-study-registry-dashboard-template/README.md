@@ -8,6 +8,21 @@ What is the minimal reusable dashboard or registry pattern that can make K R&D L
 
 This starter study is about interface and infrastructure design, not about any one domain finding.
 
+## Registry Metadata
+
+```yaml
+primary_sphere: technology
+secondary_spheres:
+  - science
+  - entrepreneurship
+combo: S+E+T
+artifact_type: dashboard
+delivery_layers:
+  - GitHub
+  - Hugging Face
+validation_stage: live prototype
+```
+
 ## Method
 
 1. Identify the core metadata each study should expose.

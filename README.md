@@ -44,3 +44,14 @@ Registry data is now generated from repo metadata with [`tools/build_registry.py
 ## Boundary rule
 
 Use `SPHERE-III` when the output should be reused across multiple studies or domains. Keep biological conclusions in `SPHERE-I` and venture or ecosystem decisions in `SPHERE-II`.
+
+## Primary Sphere And Hybrid Combos
+
+`SPHERE-III` remains the home sphere for tools, methods, and infrastructure, while hybrid combo labels show who the tool is really serving:
+
+- `T` for general-purpose tooling
+- `S+T` for science-facing tools, scoring systems, or analytical engines
+- `E+T` for venture, ops, or market infrastructure
+- `S+E+T` for shared interfaces that connect research, decisions, and implementation
+
+This keeps the repo structure stable without hiding interdisciplinary work.

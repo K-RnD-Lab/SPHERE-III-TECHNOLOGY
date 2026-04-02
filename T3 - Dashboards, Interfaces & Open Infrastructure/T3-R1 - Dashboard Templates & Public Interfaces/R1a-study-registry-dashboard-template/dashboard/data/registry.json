@@ -1,15 +1,17 @@
 [
   {
-    "title": "🔬 K R&D Lab — SPHERE I / SCIENCE",
+    "title": "SPHERE-I-SCIENCE",
     "sphere": "science",
     "track": "Root sphere repo",
     "entryType": "repository",
-    "status": "scaffold",
+    "status": "active",
     "summary": "Computational science research across oncology, plant science, metabolomics, neuroscience, ecology, and life systems.",
     "tags": [
       "science",
       "root sphere repo",
-      "lab",
+      "s",
+      "repository",
+      "sphere-i-science",
       "computational",
       "oncology"
     ],
@@ -22,7 +24,15 @@
         "label": "README",
         "href": "https://github.com/K-RnD-Lab/SPHERE-I-SCIENCE/blob/main/README.md"
       }
-    ]
+    ],
+    "primarySphere": "science",
+    "secondarySpheres": [],
+    "combo": "S",
+    "artifactType": "repository",
+    "deliveryLayers": [
+      "GitHub"
+    ],
+    "validationStage": "taxonomy"
   },
   {
     "title": "S1 Biomedical And Oncology",
@@ -34,6 +44,8 @@
     "tags": [
       "science",
       "s1",
+      "s",
+      "lane",
       "biomedical",
       "oncology",
       "translational"
@@ -47,7 +59,15 @@
         "label": "Folder",
         "href": "https://github.com/K-RnD-Lab/SPHERE-I-SCIENCE/tree/main/S1%20%E2%80%94%20%F0%9F%A9%BA%20%20Biomedical%20%26%20Oncology"
       }
-    ]
+    ],
+    "primarySphere": "science",
+    "secondarySpheres": [],
+    "combo": "S",
+    "artifactType": "lane",
+    "deliveryLayers": [
+      "GitHub"
+    ],
+    "validationStage": "taxonomy"
   },
   {
     "title": "OpenVariant: An Open-Source Variant Pathogenicity Classifier Benchmarked Against AlphaMissense",
@@ -59,6 +79,8 @@
     "tags": [
       "science",
       "s1-a-r1",
+      "s+t",
+      "research-tool",
       "openvariant",
       "open-source",
       "variant"
@@ -72,7 +94,17 @@
         "label": "Folder",
         "href": "https://github.com/K-RnD-Lab/SPHERE-I-SCIENCE/tree/main/S1%20%E2%80%94%20%F0%9F%A9%BA%20%20Biomedical%20%26%20Oncology/S1-A%20%C2%B7%20%F0%9F%A7%AC%20PHYLO-GENOMICS/S1-A-R1%20%C2%B7%20Variant%20classification/R1a-openvariant"
       }
-    ]
+    ],
+    "primarySphere": "science",
+    "secondarySpheres": [
+      "technology"
+    ],
+    "combo": "S+T",
+    "artifactType": "research_tool",
+    "deliveryLayers": [
+      "GitHub"
+    ],
+    "validationStage": "prototype"
   },
   {
     "title": "Identification of Tumor Suppressor miRNAs Silenced in BRCA2-Mutant Breast Cancer: A Multi-Dataset Meta-Analysis",
@@ -84,6 +116,8 @@
     "tags": [
       "science",
       "s1-b-r1",
+      "s",
+      "hypothesis",
       "identification",
       "tumor",
       "suppressor"
@@ -97,7 +131,15 @@
         "label": "Folder",
         "href": "https://github.com/K-RnD-Lab/SPHERE-I-SCIENCE/tree/main/S1%20%E2%80%94%20%F0%9F%A9%BA%20%20Biomedical%20%26%20Oncology/S1-B%20%C2%B7%20%F0%9F%94%AC%20PHYLO-RNA/S1-B-R1%20%C2%B7%20miRNA%20silencing/R1a-brca2-mirna"
       }
-    ]
+    ],
+    "primarySphere": "science",
+    "secondarySpheres": [],
+    "combo": "S",
+    "artifactType": "hypothesis",
+    "deliveryLayers": [
+      "GitHub"
+    ],
+    "validationStage": "exploratory"
   },
   {
     "title": "Computational Identification of siRNA Synthetic Lethal Targets in TP53-Mutant Lung Adenocarcinoma",
@@ -109,6 +151,8 @@
     "tags": [
       "science",
       "s1-b-r2",
+      "s+e+t",
+      "research-tool",
       "computational",
       "identification",
       "sirna"
@@ -122,7 +166,18 @@
         "label": "Folder",
         "href": "https://github.com/K-RnD-Lab/SPHERE-I-SCIENCE/tree/main/S1%20%E2%80%94%20%F0%9F%A9%BA%20%20Biomedical%20%26%20Oncology/S1-B%20%C2%B7%20%F0%9F%94%AC%20PHYLO-RNA/S1-B-R2%20%C2%B7%20siRNA%20SL/R2a-tp53-sirna"
       }
-    ]
+    ],
+    "primarySphere": "science",
+    "secondarySpheres": [
+      "entrepreneurship",
+      "technology"
+    ],
+    "combo": "S+E+T",
+    "artifactType": "research_tool",
+    "deliveryLayers": [
+      "GitHub"
+    ],
+    "validationStage": "prototype"
   },
   {
     "title": "lncRNA Regulatory Networks Controlling TREM2-Dependent Microglial Inflammation: Implications for Alzheimer's Therapy",
@@ -134,6 +189,8 @@
     "tags": [
       "science",
       "s1-b-r3",
+      "s",
+      "hypothesis",
       "lncrna",
       "regulatory",
       "networks"
@@ -147,7 +204,15 @@
         "label": "Folder",
         "href": "https://github.com/K-RnD-Lab/SPHERE-I-SCIENCE/tree/main/S1%20%E2%80%94%20%F0%9F%A9%BA%20%20Biomedical%20%26%20Oncology/S1-B%20%C2%B7%20%F0%9F%94%AC%20PHYLO-RNA/S1-B-R3%20%C2%B7%20lncRNA%20%2B%20ASO/R3a-lncrna-trem2"
       }
-    ]
+    ],
+    "primarySphere": "science",
+    "secondarySpheres": [],
+    "combo": "S",
+    "artifactType": "hypothesis",
+    "deliveryLayers": [
+      "GitHub"
+    ],
+    "validationStage": "exploratory"
   },
   {
     "title": "Computational Discovery of Small Molecules Targeting FGFR3 mRNA for Bladder Cancer",
@@ -159,6 +224,8 @@
     "tags": [
       "science",
       "s1-c-r1",
+      "s+t",
+      "research-tool",
       "computational",
       "discovery",
       "small"
@@ -172,7 +239,17 @@
         "label": "Folder",
         "href": "https://github.com/K-RnD-Lab/SPHERE-I-SCIENCE/tree/main/S1%20%E2%80%94%20%F0%9F%A9%BA%20%20Biomedical%20%26%20Oncology/S1-C%20%C2%B7%20%F0%9F%92%8A%20PHYLO-DRUG/S1-C-R1%20%C2%B7%20RNA-directed%20drug/R1a-fgfr3-rna-drug"
       }
-    ]
+    ],
+    "primarySphere": "science",
+    "secondarySpheres": [
+      "technology"
+    ],
+    "combo": "S+T",
+    "artifactType": "research_tool",
+    "deliveryLayers": [
+      "GitHub"
+    ],
+    "validationStage": "prototype"
   },
   {
     "title": "Machine Learning Prediction of Protein Corona Composition in Lipid Nanoparticles from Physicochemical Properties",
@@ -184,6 +261,8 @@
     "tags": [
       "science",
       "s1-d-r1",
+      "s+t",
+      "research-tool",
       "machine",
       "learning",
       "prediction"
@@ -197,7 +276,17 @@
         "label": "Folder",
         "href": "https://github.com/K-RnD-Lab/SPHERE-I-SCIENCE/tree/main/S1%20%E2%80%94%20%F0%9F%A9%BA%20%20Biomedical%20%26%20Oncology/S1-D%20%C2%B7%20%F0%9F%A7%AA%20PHYLO-LNP/S1-D-R1%20%C2%B7%20Serum%20corona/R1a-lnp-corona-ml"
       }
-    ]
+    ],
+    "primarySphere": "science",
+    "secondarySpheres": [
+      "technology"
+    ],
+    "combo": "S+T",
+    "artifactType": "research_tool",
+    "deliveryLayers": [
+      "GitHub"
+    ],
+    "validationStage": "prototype"
   },
   {
     "title": "Machine Learning Prediction of Protein Corona Composition in Lipid Nanoparticles from Physicochemical Properties",
@@ -209,6 +298,8 @@
     "tags": [
       "science",
       "s1-d-r2",
+      "s",
+      "hypothesis",
       "machine",
       "learning",
       "prediction"
@@ -222,7 +313,15 @@
         "label": "Folder",
         "href": "https://github.com/K-RnD-Lab/SPHERE-I-SCIENCE/tree/main/S1%20%E2%80%94%20%F0%9F%A9%BA%20%20Biomedical%20%26%20Oncology/S1-D%20%C2%B7%20%F0%9F%A7%AA%20PHYLO-LNP/S1-D-R2%20%C2%B7%20Flow%20corona/R2a-flow-corona/study1"
       }
-    ]
+    ],
+    "primarySphere": "science",
+    "secondarySpheres": [],
+    "combo": "S",
+    "artifactType": "hypothesis",
+    "deliveryLayers": [
+      "GitHub"
+    ],
+    "validationStage": "exploratory"
   },
   {
     "title": "Predicting Protein Corona Remodeling in Lipid Nanoparticles Under Physiological Flow: Closing the Static-Dynamic Gap",
@@ -234,6 +333,8 @@
     "tags": [
       "science",
       "s1-d-r2",
+      "s+t",
+      "research-tool",
       "predicting",
       "protein",
       "corona"
@@ -247,7 +348,17 @@
         "label": "Folder",
         "href": "https://github.com/K-RnD-Lab/SPHERE-I-SCIENCE/tree/main/S1%20%E2%80%94%20%F0%9F%A9%BA%20%20Biomedical%20%26%20Oncology/S1-D%20%C2%B7%20%F0%9F%A7%AA%20PHYLO-LNP/S1-D-R2%20%C2%B7%20Flow%20corona/R2a-flow-corona/study2"
       }
-    ]
+    ],
+    "primarySphere": "science",
+    "secondarySpheres": [
+      "technology"
+    ],
+    "combo": "S+T",
+    "artifactType": "research_tool",
+    "deliveryLayers": [
+      "GitHub"
+    ],
+    "validationStage": "prototype"
   },
   {
     "title": "Ionizable Lipid Properties Predicting ApoE Enrichment in LNP Protein Corona for Blood-Brain Barrier Crossing in Glioblastoma",
@@ -259,6 +370,8 @@
     "tags": [
       "science",
       "s1-d-r3",
+      "s+t",
+      "research-tool",
       "ionizable",
       "lipid",
       "properties"
@@ -272,7 +385,17 @@
         "label": "Folder",
         "href": "https://github.com/K-RnD-Lab/SPHERE-I-SCIENCE/tree/main/S1%20%E2%80%94%20%F0%9F%A9%BA%20%20Biomedical%20%26%20Oncology/S1-D%20%C2%B7%20%F0%9F%A7%AA%20PHYLO-LNP/S1-D-R3%20%C2%B7%20Brain%20BBB/R3a-lnp-bbb"
       }
-    ]
+    ],
+    "primarySphere": "science",
+    "secondarySpheres": [
+      "technology"
+    ],
+    "combo": "S+T",
+    "artifactType": "research_tool",
+    "deliveryLayers": [
+      "GitHub"
+    ],
+    "validationStage": "prototype"
   },
   {
     "title": "AutoCorona: An NLP Pipeline for Automated Extraction of LNP Protein Corona Data from Scientific Literature",
@@ -284,6 +407,8 @@
     "tags": [
       "science",
       "s1-d-r4",
+      "s+t",
+      "research-tool",
       "autocorona",
       "nlp",
       "pipeline"
@@ -297,7 +422,17 @@
         "label": "Folder",
         "href": "https://github.com/K-RnD-Lab/SPHERE-I-SCIENCE/tree/main/S1%20%E2%80%94%20%F0%9F%A9%BA%20%20Biomedical%20%26%20Oncology/S1-D%20%C2%B7%20%F0%9F%A7%AA%20PHYLO-LNP/S1-D-R4%20%C2%B7%20NLP/R4a-autocorona-nlp/project2_autocorona"
       }
-    ]
+    ],
+    "primarySphere": "science",
+    "secondarySpheres": [
+      "technology"
+    ],
+    "combo": "S+T",
+    "artifactType": "research_tool",
+    "deliveryLayers": [
+      "GitHub"
+    ],
+    "validationStage": "prototype"
   },
   {
     "title": "K R&D Lab — LNP Corona Research Projects",
@@ -309,6 +444,8 @@
     "tags": [
       "science",
       "s1-d-r4",
+      "s+t",
+      "research-tool",
       "lab",
       "lnp",
       "corona"
@@ -322,7 +459,17 @@
         "label": "Folder",
         "href": "https://github.com/K-RnD-Lab/SPHERE-I-SCIENCE/tree/main/S1%20%E2%80%94%20%F0%9F%A9%BA%20%20Biomedical%20%26%20Oncology/S1-D%20%C2%B7%20%F0%9F%A7%AA%20PHYLO-LNP/S1-D-R4%20%C2%B7%20NLP/R4a-autocorona-nlp"
       }
-    ]
+    ],
+    "primarySphere": "science",
+    "secondarySpheres": [
+      "technology"
+    ],
+    "combo": "S+T",
+    "artifactType": "research_tool",
+    "deliveryLayers": [
+      "GitHub"
+    ],
+    "validationStage": "prototype"
   },
   {
     "title": "Machine Learning Prediction of Protein Corona Composition in Lipid Nanoparticles from Physicochemical Properties",
@@ -334,6 +481,8 @@
     "tags": [
       "science",
       "s1-d-r4",
+      "s",
+      "hypothesis",
       "machine",
       "learning",
       "prediction"
@@ -347,7 +496,15 @@
         "label": "Folder",
         "href": "https://github.com/K-RnD-Lab/SPHERE-I-SCIENCE/tree/main/S1%20%E2%80%94%20%F0%9F%A9%BA%20%20Biomedical%20%26%20Oncology/S1-D%20%C2%B7%20%F0%9F%A7%AA%20PHYLO-LNP/S1-D-R4%20%C2%B7%20NLP/R4a-autocorona-nlp/project1_lnp_ml"
       }
-    ]
+    ],
+    "primarySphere": "science",
+    "secondarySpheres": [],
+    "combo": "S",
+    "artifactType": "hypothesis",
+    "deliveryLayers": [
+      "GitHub"
+    ],
+    "validationStage": "scaffold"
   },
   {
     "title": "Machine Learning Prediction of LNP Transfection Efficacy from Physicochemical and Formulation Features",
@@ -359,6 +516,8 @@
     "tags": [
       "science",
       "s1-e-r1",
+      "s+e",
+      "hypothesis",
       "machine",
       "learning",
       "prediction"
@@ -372,7 +531,17 @@
         "label": "Folder",
         "href": "https://github.com/K-RnD-Lab/SPHERE-I-SCIENCE/tree/main/S1%20%E2%80%94%20%F0%9F%A9%BA%20%20Biomedical%20%26%20Oncology/S1-E%20%C2%B7%20%F0%9F%A9%B8%20PHYLO-BIOMARKERS/S1-E-R1%20%C2%B7%20Liquid%20biopsy/R1a-liquid-biopsy/project1_lnp_transfection"
       }
-    ]
+    ],
+    "primarySphere": "science",
+    "secondarySpheres": [
+      "entrepreneurship"
+    ],
+    "combo": "S+E",
+    "artifactType": "hypothesis",
+    "deliveryLayers": [
+      "GitHub"
+    ],
+    "validationStage": "exploratory"
   },
   {
     "title": "Protein Corona Fingerprinting of Lipid Nanoparticles as a Liquid Biopsy Biomarker: Distinguishing Cancer Patients from Healthy Individuals Using Machine Learning",
@@ -384,6 +553,8 @@
     "tags": [
       "science",
       "s1-e-r1",
+      "s+e",
+      "hypothesis",
       "protein",
       "corona",
       "fingerprinting"
@@ -397,7 +568,17 @@
         "label": "Folder",
         "href": "https://github.com/K-RnD-Lab/SPHERE-I-SCIENCE/tree/main/S1%20%E2%80%94%20%F0%9F%A9%BA%20%20Biomedical%20%26%20Oncology/S1-E%20%C2%B7%20%F0%9F%A9%B8%20PHYLO-BIOMARKERS/S1-E-R1%20%C2%B7%20Liquid%20biopsy/R1a-liquid-biopsy/project2_corona_biopsy"
       }
-    ]
+    ],
+    "primarySphere": "science",
+    "secondarySpheres": [
+      "entrepreneurship"
+    ],
+    "combo": "S+E",
+    "artifactType": "hypothesis",
+    "deliveryLayers": [
+      "GitHub"
+    ],
+    "validationStage": "exploratory"
   },
   {
     "title": "S2 Plant Science & Phytochemistry",
@@ -409,6 +590,8 @@
     "tags": [
       "science",
       "s2",
+      "s",
+      "lane",
       "plant",
       "phytochemistry",
       "covers"
@@ -422,7 +605,15 @@
         "label": "Folder",
         "href": "https://github.com/K-RnD-Lab/SPHERE-I-SCIENCE/tree/main/S2%20%E2%80%94%20%F0%9F%8C%BF%20Plant%20Science%20%26%20Phytochemistry"
       }
-    ]
+    ],
+    "primarySphere": "science",
+    "secondarySpheres": [],
+    "combo": "S",
+    "artifactType": "lane",
+    "deliveryLayers": [
+      "GitHub"
+    ],
+    "validationStage": "taxonomy"
   },
   {
     "title": "S3 Agricultural Biology & Biofertilizers",
@@ -434,6 +625,8 @@
     "tags": [
       "science",
       "s3",
+      "s+t",
+      "lane",
       "agricultural",
       "biology",
       "biofertilizers"
@@ -447,7 +640,17 @@
         "label": "Folder",
         "href": "https://github.com/K-RnD-Lab/SPHERE-I-SCIENCE/tree/main/S3%20%E2%80%94%20%F0%9F%8C%BE%20Agricultural%20Biology%20%26%20Biofertilizers"
       }
-    ]
+    ],
+    "primarySphere": "science",
+    "secondarySpheres": [
+      "technology"
+    ],
+    "combo": "S+T",
+    "artifactType": "lane",
+    "deliveryLayers": [
+      "GitHub"
+    ],
+    "validationStage": "taxonomy"
   },
   {
     "title": "S4 Biochemistry & Metabolomics",
@@ -459,6 +662,8 @@
     "tags": [
       "science",
       "s4",
+      "s",
+      "lane",
       "biochemistry",
       "metabolomics",
       "cross-organism"
@@ -472,7 +677,15 @@
         "label": "Folder",
         "href": "https://github.com/K-RnD-Lab/SPHERE-I-SCIENCE/tree/main/S4%20%E2%80%94%20%E2%9A%97%EF%B8%8F%20Biochemistry%20%26%20Metabolomics"
       }
-    ]
+    ],
+    "primarySphere": "science",
+    "secondarySpheres": [],
+    "combo": "S",
+    "artifactType": "lane",
+    "deliveryLayers": [
+      "GitHub"
+    ],
+    "validationStage": "taxonomy"
   },
   {
     "title": "S5 Neuroscience & Aging",
@@ -484,6 +697,8 @@
     "tags": [
       "science",
       "s5",
+      "s+t",
+      "lane",
       "neuroscience",
       "aging",
       "covers"
@@ -497,7 +712,17 @@
         "label": "Folder",
         "href": "https://github.com/K-RnD-Lab/SPHERE-I-SCIENCE/tree/main/S5%20%E2%80%94%20%F0%9F%A7%A0%20Neuroscience%20%26%20Aging"
       }
-    ]
+    ],
+    "primarySphere": "science",
+    "secondarySpheres": [
+      "technology"
+    ],
+    "combo": "S+T",
+    "artifactType": "lane",
+    "deliveryLayers": [
+      "GitHub"
+    ],
+    "validationStage": "taxonomy"
   },
   {
     "title": "S6 Ecology & Environmental Science",
@@ -509,6 +734,8 @@
     "tags": [
       "science",
       "s6",
+      "s",
+      "lane",
       "ecology",
       "environmental",
       "covers"
@@ -522,7 +749,15 @@
         "label": "Folder",
         "href": "https://github.com/K-RnD-Lab/SPHERE-I-SCIENCE/tree/main/S6%20%E2%80%94%20%F0%9F%8C%8D%20Ecology%20%26%20Environmental%20Science"
       }
-    ]
+    ],
+    "primarySphere": "science",
+    "secondarySpheres": [],
+    "combo": "S",
+    "artifactType": "lane",
+    "deliveryLayers": [
+      "GitHub"
+    ],
+    "validationStage": "taxonomy"
   },
   {
     "title": "📚 S7 - K Life OS",
@@ -534,6 +769,8 @@
     "tags": [
       "science",
       "s7",
+      "s+t",
+      "lane",
       "life",
       "science-facing",
       "measurable"
@@ -547,7 +784,17 @@
         "label": "Folder",
         "href": "https://github.com/K-RnD-Lab/SPHERE-I-SCIENCE/tree/main/S7%20%E2%80%94%20%F0%9F%93%9A%20K%20Life%20OS"
       }
-    ]
+    ],
+    "primarySphere": "science",
+    "secondarySpheres": [
+      "technology"
+    ],
+    "combo": "S+T",
+    "artifactType": "lane",
+    "deliveryLayers": [
+      "GitHub"
+    ],
+    "validationStage": "taxonomy"
   },
   {
     "title": "S7-A · 🚀 Creativity or Self-Expression",
@@ -559,6 +806,8 @@
     "tags": [
       "science",
       "s7-a",
+      "s",
+      "hypothesis",
       "creativity",
       "self-expression",
       "sub-lane"
@@ -572,7 +821,15 @@
         "label": "Folder",
         "href": "https://github.com/K-RnD-Lab/SPHERE-I-SCIENCE/tree/main/S7%20%E2%80%94%20%F0%9F%93%9A%20K%20Life%20OS/S7-A%20%C2%B7%20%F0%9F%9A%80%20Creativity%20or%20Self-Expression"
       }
-    ]
+    ],
+    "primarySphere": "science",
+    "secondarySpheres": [],
+    "combo": "S",
+    "artifactType": "hypothesis",
+    "deliveryLayers": [
+      "GitHub"
+    ],
+    "validationStage": "exploratory"
   },
   {
     "title": "S7-B · 👨‍🏫 Personal Development or Self-Care",
@@ -584,6 +841,8 @@
     "tags": [
       "science",
       "s7-b",
+      "s",
+      "hypothesis",
       "personal",
       "development",
       "self-care"
@@ -597,7 +856,15 @@
         "label": "Folder",
         "href": "https://github.com/K-RnD-Lab/SPHERE-I-SCIENCE/tree/main/S7%20%E2%80%94%20%F0%9F%93%9A%20K%20Life%20OS/S7-B%20%C2%B7%20%F0%9F%91%A8%E2%80%8D%F0%9F%8F%AB%20Personal%20Development%20or%20Self-Care"
       }
-    ]
+    ],
+    "primarySphere": "science",
+    "secondarySpheres": [],
+    "combo": "S",
+    "artifactType": "hypothesis",
+    "deliveryLayers": [
+      "GitHub"
+    ],
+    "validationStage": "exploratory"
   },
   {
     "title": "S7-C · 🏠 Domestic Life or Household",
@@ -609,6 +876,8 @@
     "tags": [
       "science",
       "s7-c",
+      "s",
+      "hypothesis",
       "domestic",
       "life",
       "household"
@@ -622,7 +891,15 @@
         "label": "Folder",
         "href": "https://github.com/K-RnD-Lab/SPHERE-I-SCIENCE/tree/main/S7%20%E2%80%94%20%F0%9F%93%9A%20K%20Life%20OS/S7-C%20%C2%B7%20%F0%9F%8F%A0%20Domestic%20Life%20or%20Household"
       }
-    ]
+    ],
+    "primarySphere": "science",
+    "secondarySpheres": [],
+    "combo": "S",
+    "artifactType": "hypothesis",
+    "deliveryLayers": [
+      "GitHub"
+    ],
+    "validationStage": "exploratory"
   },
   {
     "title": "S7-D · 💵 Finance",
@@ -634,6 +911,8 @@
     "tags": [
       "science",
       "s7-d",
+      "s",
+      "hypothesis",
       "finance",
       "sub-lane",
       "inside"
@@ -647,7 +926,15 @@
         "label": "Folder",
         "href": "https://github.com/K-RnD-Lab/SPHERE-I-SCIENCE/tree/main/S7%20%E2%80%94%20%F0%9F%93%9A%20K%20Life%20OS/S7-D%20%C2%B7%20%F0%9F%92%B5%20Finance"
       }
-    ]
+    ],
+    "primarySphere": "science",
+    "secondarySpheres": [],
+    "combo": "S",
+    "artifactType": "hypothesis",
+    "deliveryLayers": [
+      "GitHub"
+    ],
+    "validationStage": "exploratory"
   },
   {
     "title": "S7-E · 🤝 Parenting or Family",
@@ -659,6 +946,8 @@
     "tags": [
       "science",
       "s7-e",
+      "s",
+      "hypothesis",
       "parenting",
       "family",
       "sub-lane"
@@ -672,7 +961,15 @@
         "label": "Folder",
         "href": "https://github.com/K-RnD-Lab/SPHERE-I-SCIENCE/tree/main/S7%20%E2%80%94%20%F0%9F%93%9A%20K%20Life%20OS/S7-E%20%C2%B7%20%F0%9F%A4%9D%20Parenting%20or%20Family"
       }
-    ]
+    ],
+    "primarySphere": "science",
+    "secondarySpheres": [],
+    "combo": "S",
+    "artifactType": "hypothesis",
+    "deliveryLayers": [
+      "GitHub"
+    ],
+    "validationStage": "exploratory"
   },
   {
     "title": "S7-F · 📚 Recreation and Hobbies",
@@ -684,6 +981,8 @@
     "tags": [
       "science",
       "s7-f",
+      "s",
+      "hypothesis",
       "recreation",
       "hobbies",
       "sub-lane"
@@ -697,7 +996,15 @@
         "label": "Folder",
         "href": "https://github.com/K-RnD-Lab/SPHERE-I-SCIENCE/tree/main/S7%20%E2%80%94%20%F0%9F%93%9A%20K%20Life%20OS/S7-F%20%C2%B7%20%F0%9F%93%9A%20Recreation%20and%20Hobbies"
       }
-    ]
+    ],
+    "primarySphere": "science",
+    "secondarySpheres": [],
+    "combo": "S",
+    "artifactType": "hypothesis",
+    "deliveryLayers": [
+      "GitHub"
+    ],
+    "validationStage": "exploratory"
   },
   {
     "title": "S7-G · 👤 Community Involvement",
@@ -709,6 +1016,8 @@
     "tags": [
       "science",
       "s7-g",
+      "s",
+      "hypothesis",
       "community",
       "involvement",
       "sub-lane"
@@ -722,7 +1031,15 @@
         "label": "Folder",
         "href": "https://github.com/K-RnD-Lab/SPHERE-I-SCIENCE/tree/main/S7%20%E2%80%94%20%F0%9F%93%9A%20K%20Life%20OS/S7-G%20%C2%B7%20%F0%9F%91%A4%20Community%20Involvement"
       }
-    ]
+    ],
+    "primarySphere": "science",
+    "secondarySpheres": [],
+    "combo": "S",
+    "artifactType": "hypothesis",
+    "deliveryLayers": [
+      "GitHub"
+    ],
+    "validationStage": "exploratory"
   },
   {
     "title": "S7-H · 🌳 Physical Health",
@@ -734,6 +1051,8 @@
     "tags": [
       "science",
       "s7-h",
+      "s",
+      "hypothesis",
       "physical",
       "health",
       "sub-lane"
@@ -747,7 +1066,15 @@
         "label": "Folder",
         "href": "https://github.com/K-RnD-Lab/SPHERE-I-SCIENCE/tree/main/S7%20%E2%80%94%20%F0%9F%93%9A%20K%20Life%20OS/S7-H%20%C2%B7%20%F0%9F%8C%B3%20Physical%20Health"
       }
-    ]
+    ],
+    "primarySphere": "science",
+    "secondarySpheres": [],
+    "combo": "S",
+    "artifactType": "hypothesis",
+    "deliveryLayers": [
+      "GitHub"
+    ],
+    "validationStage": "exploratory"
   },
   {
     "title": "R1 - Master Prep Analytics",
@@ -759,6 +1086,8 @@
     "tags": [
       "science",
       "s7-i",
+      "s+t",
+      "research-tool",
       "master",
       "prep",
       "analytics"
@@ -772,7 +1101,17 @@
         "label": "Folder",
         "href": "https://github.com/K-RnD-Lab/SPHERE-I-SCIENCE/tree/main/S7%20%E2%80%94%20%F0%9F%93%9A%20K%20Life%20OS/S7-I%20%C2%B7%20%F0%9F%94%8E%20Career%20or%20Education/R1%20-%20Master%20Prep%20Analytics"
       }
-    ]
+    ],
+    "primarySphere": "science",
+    "secondarySpheres": [
+      "technology"
+    ],
+    "combo": "S+T",
+    "artifactType": "research_tool",
+    "deliveryLayers": [
+      "GitHub"
+    ],
+    "validationStage": "live"
   },
   {
     "title": "S7-I · 🔎 Career or Education",
@@ -784,6 +1123,8 @@
     "tags": [
       "science",
       "s7-i",
+      "s",
+      "hypothesis",
       "career",
       "education",
       "sub-lane"
@@ -797,7 +1138,15 @@
         "label": "Folder",
         "href": "https://github.com/K-RnD-Lab/SPHERE-I-SCIENCE/tree/main/S7%20%E2%80%94%20%F0%9F%93%9A%20K%20Life%20OS/S7-I%20%C2%B7%20%F0%9F%94%8E%20Career%20or%20Education"
       }
-    ]
+    ],
+    "primarySphere": "science",
+    "secondarySpheres": [],
+    "combo": "S",
+    "artifactType": "hypothesis",
+    "deliveryLayers": [
+      "GitHub"
+    ],
+    "validationStage": "exploratory"
   },
   {
     "title": "S7-J · 🌿 Environmental or Charity",
@@ -809,6 +1158,8 @@
     "tags": [
       "science",
       "s7-j",
+      "s",
+      "hypothesis",
       "environmental",
       "charity",
       "sub-lane"
@@ -822,7 +1173,15 @@
         "label": "Folder",
         "href": "https://github.com/K-RnD-Lab/SPHERE-I-SCIENCE/tree/main/S7%20%E2%80%94%20%F0%9F%93%9A%20K%20Life%20OS/S7-J%20%C2%B7%20%F0%9F%8C%BF%20Environmental%20or%20Charity"
       }
-    ]
+    ],
+    "primarySphere": "science",
+    "secondarySpheres": [],
+    "combo": "S",
+    "artifactType": "hypothesis",
+    "deliveryLayers": [
+      "GitHub"
+    ],
+    "validationStage": "exploratory"
   },
   {
     "title": "S7-K · 👥 Personal Relationship",
@@ -834,6 +1193,8 @@
     "tags": [
       "science",
       "s7-k",
+      "s",
+      "hypothesis",
       "personal",
       "relationship",
       "sub-lane"
@@ -847,7 +1208,15 @@
         "label": "Folder",
         "href": "https://github.com/K-RnD-Lab/SPHERE-I-SCIENCE/tree/main/S7%20%E2%80%94%20%F0%9F%93%9A%20K%20Life%20OS/S7-K%20%C2%B7%20%F0%9F%91%A5%20Personal%20Relationship"
       }
-    ]
+    ],
+    "primarySphere": "science",
+    "secondarySpheres": [],
+    "combo": "S",
+    "artifactType": "hypothesis",
+    "deliveryLayers": [
+      "GitHub"
+    ],
+    "validationStage": "exploratory"
   },
   {
     "title": "S7-L · 🧘 Spirituality",
@@ -859,6 +1228,8 @@
     "tags": [
       "science",
       "s7-l",
+      "s",
+      "hypothesis",
       "spirituality",
       "sub-lane",
       "inside"
@@ -872,7 +1243,15 @@
         "label": "Folder",
         "href": "https://github.com/K-RnD-Lab/SPHERE-I-SCIENCE/tree/main/S7%20%E2%80%94%20%F0%9F%93%9A%20K%20Life%20OS/S7-L%20%C2%B7%20%F0%9F%A7%98%20Spirituality"
       }
-    ]
+    ],
+    "primarySphere": "science",
+    "secondarySpheres": [],
+    "combo": "S",
+    "artifactType": "hypothesis",
+    "deliveryLayers": [
+      "GitHub"
+    ],
+    "validationStage": "exploratory"
   },
   {
     "title": "S7-M · 🧭 Longitudinal Reviews & Life Wheel Synthesis",
@@ -884,6 +1263,8 @@
     "tags": [
       "science",
       "s7-m",
+      "s",
+      "hypothesis",
       "longitudinal",
       "reviews",
       "life"
@@ -897,7 +1278,15 @@
         "label": "Folder",
         "href": "https://github.com/K-RnD-Lab/SPHERE-I-SCIENCE/tree/main/S7%20%E2%80%94%20%F0%9F%93%9A%20K%20Life%20OS/S7-M%20%C2%B7%20%F0%9F%A7%AD%20Longitudinal%20Reviews%20%26%20Life%20Wheel%20Synthesis"
       }
-    ]
+    ],
+    "primarySphere": "science",
+    "secondarySpheres": [],
+    "combo": "S",
+    "artifactType": "hypothesis",
+    "deliveryLayers": [
+      "GitHub"
+    ],
+    "validationStage": "exploratory"
   },
   {
     "title": "SPHERE-II-ENTREPRENEURSHIP",
@@ -909,6 +1298,8 @@
     "tags": [
       "entrepreneurship",
       "root sphere repo",
+      "e",
+      "repository",
       "sphere-ii-entrepreneurship",
       "applied",
       "venture"
@@ -922,7 +1313,15 @@
         "label": "README",
         "href": "https://github.com/K-RnD-Lab/SPHERE-II-ENTREPRENEURSHIP/blob/main/README.md"
       }
-    ]
+    ],
+    "primarySphere": "entrepreneurship",
+    "secondarySpheres": [],
+    "combo": "E",
+    "artifactType": "repository",
+    "deliveryLayers": [
+      "GitHub"
+    ],
+    "validationStage": "taxonomy"
   },
   {
     "title": "R1a Lab-to-Market Opportunity Map",
@@ -934,6 +1333,8 @@
     "tags": [
       "entrepreneurship",
       "e1-r1",
+      "s+e",
+      "venture-case",
       "r1a",
       "lab-to-market",
       "opportunity"
@@ -947,7 +1348,17 @@
         "label": "Folder",
         "href": "https://github.com/K-RnD-Lab/SPHERE-II-ENTREPRENEURSHIP/tree/main/E1%20-%20Venture%2C%20Product%20%26%20Opportunity%20Systems/E1-R1%20-%20Opportunity%20Mapping%20%26%20Problem%20Framing/R1a-lab-to-market-opportunity-map"
       }
-    ]
+    ],
+    "primarySphere": "entrepreneurship",
+    "secondarySpheres": [
+      "science"
+    ],
+    "combo": "S+E",
+    "artifactType": "venture_case",
+    "deliveryLayers": [
+      "GitHub"
+    ],
+    "validationStage": "exploratory"
   },
   {
     "title": "R1a Translational Audience Segments",
@@ -959,6 +1370,8 @@
     "tags": [
       "entrepreneurship",
       "e2-r1",
+      "s+e+t",
+      "venture-case",
       "r1a",
       "translational",
       "audience"
@@ -972,18 +1385,31 @@
         "label": "Folder",
         "href": "https://github.com/K-RnD-Lab/SPHERE-II-ENTREPRENEURSHIP/tree/main/E2%20-%20Market%2C%20Audience%20%26%20Behavioral%20Intelligence/E2-R1%20-%20Audience%20Segmentation/R1a-translational-audience-segments"
       }
-    ]
+    ],
+    "primarySphere": "entrepreneurship",
+    "secondarySpheres": [
+      "science",
+      "technology"
+    ],
+    "combo": "S+E+T",
+    "artifactType": "venture_case",
+    "deliveryLayers": [
+      "GitHub"
+    ],
+    "validationStage": "scaffold"
   },
   {
     "title": "R1a Bio-AI Translation Landscape",
     "sphere": "entrepreneurship",
     "track": "E3-R1",
     "entryType": "public case",
-    "status": "scaffold",
+    "status": "active",
     "summary": "Which ecosystems, conferences, partners, and open communities matter most for translating K R&D Lab work across science, tooling, and applied public cases?",
     "tags": [
       "entrepreneurship",
       "e3-r1",
+      "s+e+t",
+      "public-case",
       "r1a",
       "bio-ai",
       "translation"
@@ -997,18 +1423,31 @@
         "label": "Folder",
         "href": "https://github.com/K-RnD-Lab/SPHERE-II-ENTREPRENEURSHIP/tree/main/E3%20-%20Ecosystem%2C%20Partnerships%20%26%20External%20Signals/E3-R1%20-%20Ecosystem%20Mapping/R1a-bio-ai-translation-landscape"
       }
-    ]
+    ],
+    "primarySphere": "entrepreneurship",
+    "secondarySpheres": [
+      "science",
+      "technology"
+    ],
+    "combo": "S+E+T",
+    "artifactType": "public_case",
+    "deliveryLayers": [
+      "GitHub"
+    ],
+    "validationStage": "active_case"
   },
   {
     "title": "R1a Three-Sphere Research Ops Case",
     "sphere": "entrepreneurship",
     "track": "E4-A",
     "entryType": "public case",
-    "status": "scaffold",
+    "status": "active",
     "summary": "How should K R&D Lab structure research, tooling, and public-facing artifacts across GitHub and Hugging Face so the whole ecosystem stays navigable, testable, and reusable?",
     "tags": [
       "entrepreneurship",
       "e4-a",
+      "s+e+t",
+      "public-case",
       "r1a",
       "three-sphere",
       "ops"
@@ -1022,18 +1461,31 @@
         "label": "Folder",
         "href": "https://github.com/K-RnD-Lab/SPHERE-II-ENTREPRENEURSHIP/tree/main/E4%20-%20Applied%20Investigations%20%26%20Public%20Cases/E4-A%20-%20Systems%20%26%20Workflow%20Cases/R1a-three-sphere-research-ops-case"
       }
-    ]
+    ],
+    "primarySphere": "entrepreneurship",
+    "secondarySpheres": [
+      "science",
+      "technology"
+    ],
+    "combo": "S+E+T",
+    "artifactType": "public_case",
+    "deliveryLayers": [
+      "GitHub"
+    ],
+    "validationStage": "active_case"
   },
   {
     "title": "SPHERE-III-TECHNOLOGY",
     "sphere": "technology",
     "track": "Root sphere repo",
     "entryType": "repository",
-    "status": "scaffold",
+    "status": "active",
     "summary": "Reusable research tools, scoring systems, dashboards, and open infrastructure for K R&D Lab.",
     "tags": [
       "technology",
       "root sphere repo",
+      "t",
+      "repository",
       "sphere-iii-technology",
       "reusable",
       "tools"
@@ -1047,7 +1499,15 @@
         "label": "README",
         "href": "https://github.com/K-RnD-Lab/SPHERE-III-TECHNOLOGY/blob/main/README.md"
       }
-    ]
+    ],
+    "primarySphere": "technology",
+    "secondarySpheres": [],
+    "combo": "T",
+    "artifactType": "repository",
+    "deliveryLayers": [
+      "GitHub"
+    ],
+    "validationStage": "taxonomy"
   },
   {
     "title": "R1a Bioinformatics Pipeline Template",
@@ -1059,6 +1519,8 @@
     "tags": [
       "technology",
       "t1-r1",
+      "s+t",
+      "tool",
       "r1a",
       "bioinformatics",
       "pipeline"
@@ -1072,7 +1534,17 @@
         "label": "Folder",
         "href": "https://github.com/K-RnD-Lab/SPHERE-III-TECHNOLOGY/tree/main/T1%20-%20Research%20Tools%2C%20ML%20%26%20Analytical%20Engines/T1-R1%20-%20Reusable%20Analytical%20Engines/R1a-bioinformatics-pipeline-template"
       }
-    ]
+    ],
+    "primarySphere": "technology",
+    "secondarySpheres": [
+      "science"
+    ],
+    "combo": "S+T",
+    "artifactType": "tool",
+    "deliveryLayers": [
+      "GitHub"
+    ],
+    "validationStage": "prototype"
   },
   {
     "title": "R1a Study Readiness Scoring",
@@ -1084,6 +1556,8 @@
     "tags": [
       "technology",
       "t2-r1",
+      "s+t",
+      "scoring-system",
       "r1a",
       "readiness",
       "scoring"
@@ -1097,7 +1571,17 @@
         "label": "Folder",
         "href": "https://github.com/K-RnD-Lab/SPHERE-III-TECHNOLOGY/tree/main/T2%20-%20Reproducibility%2C%20Scoring%20%26%20Method%20Systems/T2-R1%20-%20Research%20Gap%20Scoring/R1a-study-readiness-scoring"
       }
-    ]
+    ],
+    "primarySphere": "technology",
+    "secondarySpheres": [
+      "science"
+    ],
+    "combo": "S+T",
+    "artifactType": "scoring_system",
+    "deliveryLayers": [
+      "GitHub"
+    ],
+    "validationStage": "prototype"
   },
   {
     "title": "R1a Study Registry Dashboard Template",
@@ -1109,9 +1593,11 @@
     "tags": [
       "technology",
       "t3-r1",
+      "s+e+t",
+      "dashboard",
       "r1a",
       "registry",
-      "dashboard"
+      "minimal"
     ],
     "links": [
       {
@@ -1122,6 +1608,18 @@
         "label": "Folder",
         "href": "https://github.com/K-RnD-Lab/SPHERE-III-TECHNOLOGY/tree/main/T3%20-%20Dashboards%2C%20Interfaces%20%26%20Open%20Infrastructure/T3-R1%20-%20Dashboard%20Templates%20%26%20Public%20Interfaces/R1a-study-registry-dashboard-template"
       }
-    ]
+    ],
+    "primarySphere": "technology",
+    "secondarySpheres": [
+      "science",
+      "entrepreneurship"
+    ],
+    "combo": "S+E+T",
+    "artifactType": "dashboard",
+    "deliveryLayers": [
+      "GitHub",
+      "Hugging Face"
+    ],
+    "validationStage": "live prototype"
   }
 ]

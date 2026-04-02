@@ -68,6 +68,13 @@ body {
   line-height: 1.55;
 }
 
+.sublede {
+  max-width: 760px;
+  margin-top: 14px;
+  color: var(--ink);
+  line-height: 1.55;
+}
+
 .hero-links {
   display: flex;
   gap: 12px;
@@ -90,7 +97,7 @@ body {
   margin-top: 18px;
   padding: 20px;
   display: grid;
-  grid-template-columns: 2fr 1fr 1fr;
+  grid-template-columns: 2fr repeat(4, minmax(0, 1fr));
   gap: 14px;
 }
 
@@ -115,7 +122,7 @@ body {
 .stats {
   margin: 18px 0;
   display: grid;
-  grid-template-columns: repeat(4, minmax(0, 1fr));
+  grid-template-columns: repeat(5, minmax(0, 1fr));
   gap: 12px;
 }
 
@@ -125,6 +132,22 @@ body {
   border-radius: 22px;
   padding: 18px;
   box-shadow: var(--shadow);
+}
+
+.stat.science {
+  border-color: rgba(30, 122, 94, 0.2);
+}
+
+.stat.entrepreneurship {
+  border-color: rgba(181, 107, 45, 0.2);
+}
+
+.stat.technology {
+  border-color: rgba(36, 79, 143, 0.2);
+}
+
+.stat.hybrid {
+  border-color: rgba(101, 63, 153, 0.2);
 }
 
 .stat-value {
@@ -152,6 +175,12 @@ body {
 
 .registry-header h2 {
   margin: 0;
+}
+
+.registry-note {
+  margin: 0 0 20px;
+  color: var(--muted);
+  line-height: 1.5;
 }
 
 .registry-grid {
@@ -187,6 +216,11 @@ body {
   background: rgba(19, 33, 28, 0.08);
 }
 
+.badge.combo {
+  background: rgba(101, 63, 153, 0.12);
+  color: #653f99;
+}
+
 .badge.science {
   background: rgba(30, 122, 94, 0.12);
   color: var(--science);
@@ -202,6 +236,26 @@ body {
   color: var(--technology);
 }
 
+.badge.combo-s-t {
+  background: rgba(36, 79, 143, 0.1);
+  color: #244f8f;
+}
+
+.badge.combo-s-e {
+  background: rgba(181, 107, 45, 0.12);
+  color: #8c4f16;
+}
+
+.badge.combo-e-t {
+  background: rgba(91, 84, 173, 0.12);
+  color: #4b45a5;
+}
+
+.badge.combo-s-e-t {
+  background: rgba(118, 67, 111, 0.12);
+  color: #6b3564;
+}
+
 .title {
   margin: 0;
   font-size: 22px;
@@ -215,6 +269,7 @@ body {
 
 .meta {
   display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
   gap: 8px;
   margin: 0;
 }
@@ -255,6 +310,10 @@ body {
   .controls,
   .stats,
   .registry-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .meta {
     grid-template-columns: 1fr;
   }
 }

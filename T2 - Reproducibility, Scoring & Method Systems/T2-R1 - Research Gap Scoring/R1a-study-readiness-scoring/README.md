@@ -8,6 +8,19 @@ How can K R&D Lab score whether a study is ready to move from exploratory comput
 
 This starter study focuses on evaluation logic, confidence labels, and reproducibility criteria.
 
+## Registry Metadata
+
+```yaml
+primary_sphere: technology
+secondary_spheres:
+  - science
+combo: S+T
+artifact_type: scoring_system
+delivery_layers:
+  - GitHub
+validation_stage: prototype
+```
+
 ## Method
 
 1. Define scoring dimensions for evidence density, reproducibility, novelty, and experimental handoff readiness.
