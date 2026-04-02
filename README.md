@@ -31,6 +31,9 @@ The first unified index across all three spheres lives here:
 
 - [`dashboard/index.html`](T3%20-%20Dashboards%2C%20Interfaces%20%26%20Open%20Infrastructure/T3-R1%20-%20Dashboard%20Templates%20%26%20Public%20Interfaces/R1a-study-registry-dashboard-template/dashboard/index.html)
 - [`dashboard/data/registry.json`](T3%20-%20Dashboards%2C%20Interfaces%20%26%20Open%20Infrastructure/T3-R1%20-%20Dashboard%20Templates%20%26%20Public%20Interfaces/R1a-study-registry-dashboard-template/dashboard/data/registry.json)
+- [Live Study Registry Space](https://huggingface.co/spaces/K-RnD-Lab/Study-Registry_04-2026)
+
+Registry data is now generated from repo metadata with [`tools/build_registry.py`](tools/build_registry.py), and `SPHERE-III` includes a scheduled/manual GitHub Actions workflow to rebuild the shared index.
 
 ## Example directions
 

@@ -1,0 +1,51 @@
+name: Rebuild Registry
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "17 5 * * *"
+
+permissions:
+  contents: write
+
+jobs:
+  rebuild:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout technology repo
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Clone sphere repos
+        run: |
+          git clone https://github.com/K-RnD-Lab/SPHERE-I-SCIENCE.git ../sp1repo
+          git clone https://github.com/K-RnD-Lab/SPHERE-II-ENTREPRENEURSHIP.git ../sp2repo
+
+      - name: Rebuild registry data
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+        run: |
+          python tools/build_registry.py \
+            --science-path ../sp1repo \
+            --entrepreneurship-path ../sp2repo \
+            --technology-path . \
+            --output "T3 - Dashboards, Interfaces & Open Infrastructure/T3-R1 - Dashboard Templates & Public Interfaces/R1a-study-registry-dashboard-template/dashboard/data/registry.json"
+
+      - name: Commit and push changes
+        run: |
+          if git diff --quiet; then
+            echo "No registry changes detected."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A
+          git commit -m "Rebuild study registry data"
+          git push

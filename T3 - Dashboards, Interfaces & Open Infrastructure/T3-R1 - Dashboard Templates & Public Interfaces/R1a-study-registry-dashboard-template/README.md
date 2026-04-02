@@ -28,7 +28,8 @@ This starter study is about interface and infrastructure design, not about any o
 - [`dashboard/styles.css`](dashboard/styles.css)
 - [`dashboard/app.js`](dashboard/app.js)
 - [`dashboard/data/registry.json`](dashboard/data/registry.json)
+- [`../../../tools/build_registry.py`](../../../tools/build_registry.py)
 
 ## Status
 
-Starter scaffold for a reusable public-interface pattern.
+Starter scaffold for a reusable public-interface pattern. Registry data can now be regenerated automatically from repository metadata instead of being hand-edited.
