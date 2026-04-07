@@ -760,6 +760,403 @@
     "validationStage": "taxonomy"
   },
   {
+    "title": "S6-A - K-EcoLOGIC Lab",
+    "sphere": "science",
+    "track": "S6-A",
+    "entryType": "study",
+    "status": "active",
+    "summary": "S6-A is the first structured environmental-intelligence lane inside S6.",
+    "tags": [
+      "science",
+      "s6-a",
+      "s",
+      "hypothesis",
+      "k-ecologic",
+      "lab",
+      "first"
+    ],
+    "links": [
+      {
+        "label": "README",
+        "href": "https://github.com/K-RnD-Lab/SPHERE-I-SCIENCE/blob/main/S6%20%E2%80%94%20%F0%9F%8C%8D%20Ecology%20%26%20Environmental%20Science/S6-A%20-%20K-EcoLOGIC%20Lab/README.md"
+      },
+      {
+        "label": "Folder",
+        "href": "https://github.com/K-RnD-Lab/SPHERE-I-SCIENCE/tree/main/S6%20%E2%80%94%20%F0%9F%8C%8D%20Ecology%20%26%20Environmental%20Science/S6-A%20-%20K-EcoLOGIC%20Lab"
+      }
+    ],
+    "primarySphere": "science",
+    "secondarySpheres": [],
+    "combo": "S",
+    "artifactType": "hypothesis",
+    "deliveryLayers": [
+      "GitHub"
+    ],
+    "validationStage": "exploratory"
+  },
+  {
+    "title": "K-EcoLOGIC Lab",
+    "sphere": "science",
+    "track": "S6-A-R1",
+    "entryType": "study",
+    "status": "active",
+    "summary": "K-EcoLOGIC Lab is a research-oriented environmental data platform under the broader K-RnD Lab direction.",
+    "tags": [
+      "science",
+      "s6-a-r1",
+      "s+t",
+      "research-tool",
+      "k-ecologic",
+      "lab",
+      "research-oriented"
+    ],
+    "links": [
+      {
+        "label": "README",
+        "href": "https://github.com/K-RnD-Lab/SPHERE-I-SCIENCE/blob/main/S6%20%E2%80%94%20%F0%9F%8C%8D%20Ecology%20%26%20Environmental%20Science/S6-A%20-%20K-EcoLOGIC%20Lab/S6-A-R1%20-%20SortSmart%20Ukraine/R1a-sortsmart-ukraine/README.md"
+      },
+      {
+        "label": "Folder",
+        "href": "https://github.com/K-RnD-Lab/SPHERE-I-SCIENCE/tree/main/S6%20%E2%80%94%20%F0%9F%8C%8D%20Ecology%20%26%20Environmental%20Science/S6-A%20-%20K-EcoLOGIC%20Lab/S6-A-R1%20-%20SortSmart%20Ukraine/R1a-sortsmart-ukraine"
+      }
+    ],
+    "primarySphere": "science",
+    "secondarySpheres": [
+      "technology"
+    ],
+    "combo": "S+T",
+    "artifactType": "research_tool",
+    "deliveryLayers": [
+      "GitHub"
+    ],
+    "validationStage": "prototype"
+  },
+  {
+    "title": "S6-A-R1 - SortSmart Ukraine",
+    "sphere": "science",
+    "track": "S6-A-R1",
+    "entryType": "study",
+    "status": "active",
+    "summary": "S6-A-R1 is the flagship research program under K-EcoLOGIC Lab.",
+    "tags": [
+      "science",
+      "s6-a-r1",
+      "s+t",
+      "research-tool",
+      "sortsmart",
+      "ukraine",
+      "flagship"
+    ],
+    "links": [
+      {
+        "label": "README",
+        "href": "https://github.com/K-RnD-Lab/SPHERE-I-SCIENCE/blob/main/S6%20%E2%80%94%20%F0%9F%8C%8D%20Ecology%20%26%20Environmental%20Science/S6-A%20-%20K-EcoLOGIC%20Lab/S6-A-R1%20-%20SortSmart%20Ukraine/README.md"
+      },
+      {
+        "label": "Folder",
+        "href": "https://github.com/K-RnD-Lab/SPHERE-I-SCIENCE/tree/main/S6%20%E2%80%94%20%F0%9F%8C%8D%20Ecology%20%26%20Environmental%20Science/S6-A%20-%20K-EcoLOGIC%20Lab/S6-A-R1%20-%20SortSmart%20Ukraine"
+      }
+    ],
+    "primarySphere": "science",
+    "secondarySpheres": [
+      "technology"
+    ],
+    "combo": "S+T",
+    "artifactType": "research_tool",
+    "deliveryLayers": [
+      "GitHub"
+    ],
+    "validationStage": "prototype"
+  },
+  {
+    "title": "R2a - Air Exposure Prototype",
+    "sphere": "science",
+    "track": "S6-A-R2",
+    "entryType": "study",
+    "status": "active",
+    "summary": "R2a-air-exposure-prototype is the first implementation module for S6-A-R2.",
+    "tags": [
+      "science",
+      "s6-a-r2",
+      "s+t",
+      "research-tool",
+      "r2a",
+      "air",
+      "exposure"
+    ],
+    "links": [
+      {
+        "label": "README",
+        "href": "https://github.com/K-RnD-Lab/SPHERE-I-SCIENCE/blob/main/S6%20%E2%80%94%20%F0%9F%8C%8D%20Ecology%20%26%20Environmental%20Science/S6-A%20-%20K-EcoLOGIC%20Lab/S6-A-R2%20-%20Air%20%26%20Exposure%20Intelligence/R2a-air-exposure-prototype/README.md"
+      },
+      {
+        "label": "Folder",
+        "href": "https://github.com/K-RnD-Lab/SPHERE-I-SCIENCE/tree/main/S6%20%E2%80%94%20%F0%9F%8C%8D%20Ecology%20%26%20Environmental%20Science/S6-A%20-%20K-EcoLOGIC%20Lab/S6-A-R2%20-%20Air%20%26%20Exposure%20Intelligence/R2a-air-exposure-prototype"
+      }
+    ],
+    "primarySphere": "science",
+    "secondarySpheres": [
+      "technology"
+    ],
+    "combo": "S+T",
+    "artifactType": "research_tool",
+    "deliveryLayers": [
+      "GitHub"
+    ],
+    "validationStage": "prototype"
+  },
+  {
+    "title": "S6-A-R2 - Air & Exposure Intelligence",
+    "sphere": "science",
+    "track": "S6-A-R2",
+    "entryType": "study",
+    "status": "active",
+    "summary": "S6-A-R2 is the second research program under K-EcoLOGIC Lab.",
+    "tags": [
+      "science",
+      "s6-a-r2",
+      "s+t",
+      "research-tool",
+      "air",
+      "exposure",
+      "intelligence"
+    ],
+    "links": [
+      {
+        "label": "README",
+        "href": "https://github.com/K-RnD-Lab/SPHERE-I-SCIENCE/blob/main/S6%20%E2%80%94%20%F0%9F%8C%8D%20Ecology%20%26%20Environmental%20Science/S6-A%20-%20K-EcoLOGIC%20Lab/S6-A-R2%20-%20Air%20%26%20Exposure%20Intelligence/README.md"
+      },
+      {
+        "label": "Folder",
+        "href": "https://github.com/K-RnD-Lab/SPHERE-I-SCIENCE/tree/main/S6%20%E2%80%94%20%F0%9F%8C%8D%20Ecology%20%26%20Environmental%20Science/S6-A%20-%20K-EcoLOGIC%20Lab/S6-A-R2%20-%20Air%20%26%20Exposure%20Intelligence"
+      }
+    ],
+    "primarySphere": "science",
+    "secondarySpheres": [
+      "technology"
+    ],
+    "combo": "S+T",
+    "artifactType": "research_tool",
+    "deliveryLayers": [
+      "GitHub"
+    ],
+    "validationStage": "prototype"
+  },
+  {
+    "title": "R3a - Water Watch Prototype",
+    "sphere": "science",
+    "track": "S6-A-R3",
+    "entryType": "study",
+    "status": "active",
+    "summary": "R3a-water-watch-prototype is the first implementation module for S6-A-R3.",
+    "tags": [
+      "science",
+      "s6-a-r3",
+      "s+t",
+      "research-tool",
+      "r3a",
+      "water",
+      "watch"
+    ],
+    "links": [
+      {
+        "label": "README",
+        "href": "https://github.com/K-RnD-Lab/SPHERE-I-SCIENCE/blob/main/S6%20%E2%80%94%20%F0%9F%8C%8D%20Ecology%20%26%20Environmental%20Science/S6-A%20-%20K-EcoLOGIC%20Lab/S6-A-R3%20-%20Water%20Watch%20Ukraine/R3a-water-watch-prototype/README.md"
+      },
+      {
+        "label": "Folder",
+        "href": "https://github.com/K-RnD-Lab/SPHERE-I-SCIENCE/tree/main/S6%20%E2%80%94%20%F0%9F%8C%8D%20Ecology%20%26%20Environmental%20Science/S6-A%20-%20K-EcoLOGIC%20Lab/S6-A-R3%20-%20Water%20Watch%20Ukraine/R3a-water-watch-prototype"
+      }
+    ],
+    "primarySphere": "science",
+    "secondarySpheres": [
+      "technology"
+    ],
+    "combo": "S+T",
+    "artifactType": "research_tool",
+    "deliveryLayers": [
+      "GitHub"
+    ],
+    "validationStage": "prototype"
+  },
+  {
+    "title": "S6-A-R3 - Water Watch Ukraine",
+    "sphere": "science",
+    "track": "S6-A-R3",
+    "entryType": "study",
+    "status": "active",
+    "summary": "S6-A-R3 is the third research program under K-EcoLOGIC Lab.",
+    "tags": [
+      "science",
+      "s6-a-r3",
+      "s+t",
+      "research-tool",
+      "water",
+      "watch",
+      "ukraine"
+    ],
+    "links": [
+      {
+        "label": "README",
+        "href": "https://github.com/K-RnD-Lab/SPHERE-I-SCIENCE/blob/main/S6%20%E2%80%94%20%F0%9F%8C%8D%20Ecology%20%26%20Environmental%20Science/S6-A%20-%20K-EcoLOGIC%20Lab/S6-A-R3%20-%20Water%20Watch%20Ukraine/README.md"
+      },
+      {
+        "label": "Folder",
+        "href": "https://github.com/K-RnD-Lab/SPHERE-I-SCIENCE/tree/main/S6%20%E2%80%94%20%F0%9F%8C%8D%20Ecology%20%26%20Environmental%20Science/S6-A%20-%20K-EcoLOGIC%20Lab/S6-A-R3%20-%20Water%20Watch%20Ukraine"
+      }
+    ],
+    "primarySphere": "science",
+    "secondarySpheres": [
+      "technology"
+    ],
+    "combo": "S+T",
+    "artifactType": "research_tool",
+    "deliveryLayers": [
+      "GitHub"
+    ],
+    "validationStage": "prototype"
+  },
+  {
+    "title": "R4a - Permits Oversight Prototype",
+    "sphere": "science",
+    "track": "S6-A-R4",
+    "entryType": "study",
+    "status": "active",
+    "summary": "R4a-permits-oversight-prototype is the first implementation module for S6-A-R4.",
+    "tags": [
+      "science",
+      "s6-a-r4",
+      "s",
+      "hypothesis",
+      "r4a",
+      "permits",
+      "oversight"
+    ],
+    "links": [
+      {
+        "label": "README",
+        "href": "https://github.com/K-RnD-Lab/SPHERE-I-SCIENCE/blob/main/S6%20%E2%80%94%20%F0%9F%8C%8D%20Ecology%20%26%20Environmental%20Science/S6-A%20-%20K-EcoLOGIC%20Lab/S6-A-R4%20-%20Polluters%2C%20Permits%2C%20and%20Environmental%20Oversight/R4a-permits-oversight-prototype/README.md"
+      },
+      {
+        "label": "Folder",
+        "href": "https://github.com/K-RnD-Lab/SPHERE-I-SCIENCE/tree/main/S6%20%E2%80%94%20%F0%9F%8C%8D%20Ecology%20%26%20Environmental%20Science/S6-A%20-%20K-EcoLOGIC%20Lab/S6-A-R4%20-%20Polluters%2C%20Permits%2C%20and%20Environmental%20Oversight/R4a-permits-oversight-prototype"
+      }
+    ],
+    "primarySphere": "science",
+    "secondarySpheres": [],
+    "combo": "S",
+    "artifactType": "hypothesis",
+    "deliveryLayers": [
+      "GitHub"
+    ],
+    "validationStage": "exploratory"
+  },
+  {
+    "title": "S6-A-R4 - Polluters, Permits, and Environmental Oversight",
+    "sphere": "science",
+    "track": "S6-A-R4",
+    "entryType": "study",
+    "status": "active",
+    "summary": "S6-A-R4 is the fourth research program under K-EcoLOGIC Lab.",
+    "tags": [
+      "science",
+      "s6-a-r4",
+      "s",
+      "hypothesis",
+      "polluters",
+      "permits",
+      "environmental"
+    ],
+    "links": [
+      {
+        "label": "README",
+        "href": "https://github.com/K-RnD-Lab/SPHERE-I-SCIENCE/blob/main/S6%20%E2%80%94%20%F0%9F%8C%8D%20Ecology%20%26%20Environmental%20Science/S6-A%20-%20K-EcoLOGIC%20Lab/S6-A-R4%20-%20Polluters%2C%20Permits%2C%20and%20Environmental%20Oversight/README.md"
+      },
+      {
+        "label": "Folder",
+        "href": "https://github.com/K-RnD-Lab/SPHERE-I-SCIENCE/tree/main/S6%20%E2%80%94%20%F0%9F%8C%8D%20Ecology%20%26%20Environmental%20Science/S6-A%20-%20K-EcoLOGIC%20Lab/S6-A-R4%20-%20Polluters%2C%20Permits%2C%20and%20Environmental%20Oversight"
+      }
+    ],
+    "primarySphere": "science",
+    "secondarySpheres": [],
+    "combo": "S",
+    "artifactType": "hypothesis",
+    "deliveryLayers": [
+      "GitHub"
+    ],
+    "validationStage": "exploratory"
+  },
+  {
+    "title": "R5a - Radiation Risk Prototype",
+    "sphere": "science",
+    "track": "S6-A-R5",
+    "entryType": "study",
+    "status": "active",
+    "summary": "R5a-radiation-risk-prototype is the first implementation module for S6-A-R5.",
+    "tags": [
+      "science",
+      "s6-a-r5",
+      "s",
+      "hypothesis",
+      "r5a",
+      "radiation",
+      "risk"
+    ],
+    "links": [
+      {
+        "label": "README",
+        "href": "https://github.com/K-RnD-Lab/SPHERE-I-SCIENCE/blob/main/S6%20%E2%80%94%20%F0%9F%8C%8D%20Ecology%20%26%20Environmental%20Science/S6-A%20-%20K-EcoLOGIC%20Lab/S6-A-R5%20-%20Radiation%20and%20Environmental%20Risk/R5a-radiation-risk-prototype/README.md"
+      },
+      {
+        "label": "Folder",
+        "href": "https://github.com/K-RnD-Lab/SPHERE-I-SCIENCE/tree/main/S6%20%E2%80%94%20%F0%9F%8C%8D%20Ecology%20%26%20Environmental%20Science/S6-A%20-%20K-EcoLOGIC%20Lab/S6-A-R5%20-%20Radiation%20and%20Environmental%20Risk/R5a-radiation-risk-prototype"
+      }
+    ],
+    "primarySphere": "science",
+    "secondarySpheres": [],
+    "combo": "S",
+    "artifactType": "hypothesis",
+    "deliveryLayers": [
+      "GitHub"
+    ],
+    "validationStage": "exploratory"
+  },
+  {
+    "title": "S6-A-R5 - Radiation and Environmental Risk",
+    "sphere": "science",
+    "track": "S6-A-R5",
+    "entryType": "study",
+    "status": "active",
+    "summary": "S6-A-R5 is the fifth research program under K-EcoLOGIC Lab.",
+    "tags": [
+      "science",
+      "s6-a-r5",
+      "s",
+      "hypothesis",
+      "radiation",
+      "environmental",
+      "risk"
+    ],
+    "links": [
+      {
+        "label": "README",
+        "href": "https://github.com/K-RnD-Lab/SPHERE-I-SCIENCE/blob/main/S6%20%E2%80%94%20%F0%9F%8C%8D%20Ecology%20%26%20Environmental%20Science/S6-A%20-%20K-EcoLOGIC%20Lab/S6-A-R5%20-%20Radiation%20and%20Environmental%20Risk/README.md"
+      },
+      {
+        "label": "Folder",
+        "href": "https://github.com/K-RnD-Lab/SPHERE-I-SCIENCE/tree/main/S6%20%E2%80%94%20%F0%9F%8C%8D%20Ecology%20%26%20Environmental%20Science/S6-A%20-%20K-EcoLOGIC%20Lab/S6-A-R5%20-%20Radiation%20and%20Environmental%20Risk"
+      }
+    ],
+    "primarySphere": "science",
+    "secondarySpheres": [],
+    "combo": "S",
+    "artifactType": "hypothesis",
+    "deliveryLayers": [
+      "GitHub"
+    ],
+    "validationStage": "exploratory"
+  },
+  {
     "title": "📚 S7 - K Life OS",
     "sphere": "science",
     "track": "S7",
