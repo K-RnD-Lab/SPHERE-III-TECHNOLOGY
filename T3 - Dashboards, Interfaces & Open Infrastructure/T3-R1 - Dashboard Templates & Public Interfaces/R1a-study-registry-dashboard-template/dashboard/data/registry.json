@@ -795,20 +795,20 @@
     "validationStage": "exploratory"
   },
   {
-    "title": "K-EcoLOGIC Lab",
+    "title": "R1a - SortSmart Ukraine Prototype",
     "sphere": "science",
     "track": "S6-A-R1",
     "entryType": "study",
     "status": "active",
-    "summary": "K-EcoLOGIC Lab is a research-oriented environmental data platform under the broader K-RnD Lab direction.",
+    "summary": "R1a-sortsmart-ukraine is the implementation module for S6-A-R1 - SortSmart Ukraine.",
     "tags": [
       "science",
       "s6-a-r1",
       "s+t",
       "research-tool",
-      "k-ecologic",
-      "lab",
-      "research-oriented"
+      "r1a",
+      "sortsmart",
+      "ukraine"
     ],
     "links": [
       {
@@ -874,7 +874,7 @@
     "track": "S6-A-R2",
     "entryType": "study",
     "status": "active",
-    "summary": "R2a-air-exposure-prototype is the first implementation module for S6-A-R2.",
+    "summary": "R2a-air-exposure-prototype is the first implementation module for S6-A-R2 - Air & Exposure Intelligence.",
     "tags": [
       "science",
       "s6-a-r2",
@@ -948,7 +948,7 @@
     "track": "S6-A-R3",
     "entryType": "study",
     "status": "active",
-    "summary": "R3a-water-watch-prototype is the first implementation module for S6-A-R3.",
+    "summary": "R3a-water-watch-prototype is the first implementation module for S6-A-R3 - Water Watch Ukraine.",
     "tags": [
       "science",
       "s6-a-r3",
@@ -1022,7 +1022,7 @@
     "track": "S6-A-R4",
     "entryType": "study",
     "status": "active",
-    "summary": "R4a-permits-oversight-prototype is the first implementation module for S6-A-R4.",
+    "summary": "R4a-permits-oversight-prototype is the first implementation module for S6-A-R4 - Polluters, Permits, and Environmental Oversight.",
     "tags": [
       "science",
       "s6-a-r4",
@@ -1092,7 +1092,7 @@
     "track": "S6-A-R5",
     "entryType": "study",
     "status": "active",
-    "summary": "R5a-radiation-risk-prototype is the first implementation module for S6-A-R5.",
+    "summary": "R5a-radiation-risk-prototype is the first implementation module for S6-A-R5 - Radiation and Environmental Risk.",
     "tags": [
       "science",
       "s6-a-r5",
