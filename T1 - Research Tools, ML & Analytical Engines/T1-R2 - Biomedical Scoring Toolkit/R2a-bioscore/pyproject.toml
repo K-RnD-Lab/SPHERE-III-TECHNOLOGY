@@ -25,3 +25,6 @@ Repository = "https://github.com/K-RnD-Lab/SPHERE-III-TECHNOLOGY"
 
 [tool.hatch.build.targets.wheel]
 packages = ["src/bioscore"]
+
+[tool.hatch.build.targets.sdist]
+include = ["src/bioscore", "README.md", "pyproject.toml", "tests"]

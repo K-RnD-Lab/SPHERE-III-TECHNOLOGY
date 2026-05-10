@@ -25,3 +25,6 @@ Repository = "https://github.com/K-RnD-Lab/SPHERE-III-TECHNOLOGY"
 
 [tool.hatch.build.targets.wheel]
 packages = ["src/studyreg"]
+
+[tool.hatch.build.targets.sdist]
+include = ["src/studyreg", "README.md", "pyproject.toml", "tests"]
