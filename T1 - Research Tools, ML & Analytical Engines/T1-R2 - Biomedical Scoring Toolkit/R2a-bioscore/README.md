@@ -47,4 +47,4 @@ Returns `{"score": float, "ready": bool, "gaps": list[str]}`.
 
 ## License
 
-MIT © K-RnD-Lab
+MIT © K-RnD Lab

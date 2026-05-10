@@ -49,4 +49,4 @@ Sphere codes: `S`, `E`, `T`.
 
 ## License
 
-MIT © K-RnD-Lab
+MIT © K-RnD Lab

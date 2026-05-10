@@ -9,7 +9,7 @@ description = "Biomedical scoring toolkit — reproducibility, data quality, and
 readme = "README.md"
 license = "MIT"
 requires-python = ">=3.9"
-authors = [{name = "K-RnD-Lab"}]
+authors = [{name = "K-RnD Lab"}]
 keywords = ["bioscore", "bioinformatics", "reproducibility", "scoring", "computational-biology"]
 classifiers = [
   "Development Status :: 3 - Alpha",

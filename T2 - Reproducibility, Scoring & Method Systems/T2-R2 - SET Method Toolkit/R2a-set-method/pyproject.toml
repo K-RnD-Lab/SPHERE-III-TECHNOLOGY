@@ -9,7 +9,7 @@ description = "SET methodology toolkit — classify, score, and recommend across
 readme = "README.md"
 license = "MIT"
 requires-python = ">=3.9"
-authors = [{name = "K-RnD-Lab"}]
+authors = [{name = "K-RnD Lab"}]
 keywords = ["set-method", "science", "entrepreneurship", "technology", "scoring", "venture"]
 classifiers = [
   "Development Status :: 3 - Alpha",

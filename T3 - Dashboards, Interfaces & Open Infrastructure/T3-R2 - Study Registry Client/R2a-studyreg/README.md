@@ -50,4 +50,4 @@ Returns `{"valid": bool, "warnings": list[str]}`.
 
 ## License
 
-MIT © K-RnD-Lab
+MIT © K-RnD Lab

@@ -9,7 +9,7 @@ description = "Study Registry client — register, search, and manage reproducib
 readme = "README.md"
 license = "MIT"
 requires-python = ">=3.9"
-authors = [{name = "K-RnD-Lab"}]
+authors = [{name = "K-RnD Lab"}]
 keywords = ["studyreg", "registry", "reproducibility", "computational-science", "open-science"]
 classifiers = [
   "Development Status :: 3 - Alpha",
