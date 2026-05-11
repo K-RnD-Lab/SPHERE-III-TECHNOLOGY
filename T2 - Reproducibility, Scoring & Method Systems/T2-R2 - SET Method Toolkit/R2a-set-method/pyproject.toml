@@ -5,18 +5,23 @@ build-backend = "hatchling.build"
 [project]
 name = "set-method"
 version = "0.1.0"
-description = "SET methodology toolkit — classify, score, and recommend across Science, Entrepreneurship, and Technology spheres"
+description = "Programmatic SET framework: classify projects into Science/Entrepreneurship/Technology spheres, score with dual frameworks, recommend quests by personality type"
 readme = "README.md"
 license = "MIT"
 requires-python = ">=3.9"
 authors = [{name = "K-RnD Lab"}]
-keywords = ["set-method", "science", "entrepreneurship", "technology", "scoring", "venture"]
+keywords = ["set-method", "science", "entrepreneurship", "technology", "scoring", "venture", "classification", "recommendation", "personality", "framework"]
 classifiers = [
   "Development Status :: 3 - Alpha",
   "Intended Audience :: Science/Research",
+  "Intended Audience :: Developers",
   "License :: OSI Approved :: MIT License",
   "Programming Language :: Python :: 3",
+  "Programming Language :: Python :: 3.9",
+  "Programming Language :: Python :: 3.11",
+  "Programming Language :: Python :: 3.13",
   "Topic :: Scientific/Engineering",
+  "Topic :: Software Development :: Libraries",
 ]
 
 [project.urls]

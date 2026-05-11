@@ -5,18 +5,24 @@ build-backend = "hatchling.build"
 [project]
 name = "bioscore"
 version = "0.1.0"
-description = "Biomedical scoring toolkit — reproducibility, data quality, and model readiness metrics for computational biology"
+description = "Zero-dependency biomedical scoring: reproducibility audit, domain-aware data quality, and ML model readiness gate — one pip install, three checks"
 readme = "README.md"
 license = "MIT"
 requires-python = ">=3.9"
 authors = [{name = "K-RnD Lab"}]
-keywords = ["bioscore", "bioinformatics", "reproducibility", "scoring", "computational-biology"]
+keywords = ["bioscore", "bioinformatics", "reproducibility", "scoring", "computational-biology", "data-quality", "model-readiness", "mlops", "pre-deployment"]
 classifiers = [
   "Development Status :: 3 - Alpha",
   "Intended Audience :: Science/Research",
+  "Intended Audience :: Developers",
   "License :: OSI Approved :: MIT License",
   "Programming Language :: Python :: 3",
+  "Programming Language :: Python :: 3.9",
+  "Programming Language :: Python :: 3.11",
+  "Programming Language :: Python :: 3.13",
   "Topic :: Scientific/Engineering :: Bio-Informatics",
+  "Topic :: Scientific/Engineering :: Artificial Intelligence",
+  "Topic :: Software Development :: Quality Assurance",
 ]
 
 [project.urls]
