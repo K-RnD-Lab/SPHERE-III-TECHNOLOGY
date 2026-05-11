@@ -1944,6 +1944,79 @@
     "validationStage": "prototype"
   },
   {
+    "title": "bioscore",
+    "sphere": "technology",
+    "track": "T1-R2",
+    "entryType": "study",
+    "status": "active",
+    "summary": "Biomedical scoring toolkit — reproducibility, data quality, and model readiness metrics for computational biology.",
+    "tags": [
+      "technology",
+      "t1-r2",
+      "s+t",
+      "scoring-system",
+      "bioscore",
+      "biomedical",
+      "scoring"
+    ],
+    "links": [
+      {
+        "label": "README",
+        "href": "https://github.com/K-RnD-Lab/SPHERE-III-TECHNOLOGY/blob/main/T1%20-%20Research%20Tools%2C%20ML%20%26%20Analytical%20Engines/T1-R2%20-%20Biomedical%20Scoring%20Toolkit/R2a-bioscore/README.md"
+      },
+      {
+        "label": "Folder",
+        "href": "https://github.com/K-RnD-Lab/SPHERE-III-TECHNOLOGY/tree/main/T1%20-%20Research%20Tools%2C%20ML%20%26%20Analytical%20Engines/T1-R2%20-%20Biomedical%20Scoring%20Toolkit/R2a-bioscore"
+      }
+    ],
+    "primarySphere": "technology",
+    "secondarySpheres": [
+      "science"
+    ],
+    "combo": "S+T",
+    "artifactType": "scoring_system",
+    "deliveryLayers": [
+      "GitHub"
+    ],
+    "validationStage": "prototype"
+  },
+  {
+    "title": "huggingface_space",
+    "sphere": "technology",
+    "track": "T1-R2",
+    "entryType": "study",
+    "status": "active",
+    "summary": "huggingface_space",
+    "tags": [
+      "technology",
+      "t1-r2",
+      "s+t",
+      "scoring-system",
+      "huggingface",
+      "space"
+    ],
+    "links": [
+      {
+        "label": "README",
+        "href": "https://github.com/K-RnD-Lab/SPHERE-III-TECHNOLOGY/blob/main/T1%20-%20Research%20Tools%2C%20ML%20%26%20Analytical%20Engines/T1-R2%20-%20Biomedical%20Scoring%20Toolkit/R2a-bioscore/huggingface_space/README.md"
+      },
+      {
+        "label": "Folder",
+        "href": "https://github.com/K-RnD-Lab/SPHERE-III-TECHNOLOGY/tree/main/T1%20-%20Research%20Tools%2C%20ML%20%26%20Analytical%20Engines/T1-R2%20-%20Biomedical%20Scoring%20Toolkit/R2a-bioscore/huggingface_space"
+      }
+    ],
+    "primarySphere": "technology",
+    "secondarySpheres": [
+      "science"
+    ],
+    "combo": "S+T",
+    "artifactType": "scoring_system",
+    "deliveryLayers": [
+      "GitHub"
+    ],
+    "validationStage": "prototype"
+  },
+  {
     "title": "R1a Study Readiness Scoring",
     "sphere": "technology",
     "track": "T2-R1",
@@ -1974,6 +2047,41 @@
       "science"
     ],
     "combo": "S+T",
+    "artifactType": "scoring_system",
+    "deliveryLayers": [
+      "GitHub"
+    ],
+    "validationStage": "prototype"
+  },
+  {
+    "title": "set-method",
+    "sphere": "technology",
+    "track": "T2-R2",
+    "entryType": "study",
+    "status": "active",
+    "summary": "SET methodology toolkit — classify, score, and recommend across Science, Entrepreneurship, and Technology spheres.",
+    "tags": [
+      "technology",
+      "t2-r2",
+      "t",
+      "scoring-system",
+      "set-method",
+      "set",
+      "methodology"
+    ],
+    "links": [
+      {
+        "label": "README",
+        "href": "https://github.com/K-RnD-Lab/SPHERE-III-TECHNOLOGY/blob/main/T2%20-%20Reproducibility%2C%20Scoring%20%26%20Method%20Systems/T2-R2%20-%20SET%20Method%20Toolkit/R2a-set-method/README.md"
+      },
+      {
+        "label": "Folder",
+        "href": "https://github.com/K-RnD-Lab/SPHERE-III-TECHNOLOGY/tree/main/T2%20-%20Reproducibility%2C%20Scoring%20%26%20Method%20Systems/T2-R2%20-%20SET%20Method%20Toolkit/R2a-set-method"
+      }
+    ],
+    "primarySphere": "technology",
+    "secondarySpheres": [],
+    "combo": "T",
     "artifactType": "scoring_system",
     "deliveryLayers": [
       "GitHub"
@@ -2018,5 +2126,40 @@
       "Hugging Face"
     ],
     "validationStage": "live prototype"
+  },
+  {
+    "title": "studyreg",
+    "sphere": "technology",
+    "track": "T3-R2",
+    "entryType": "study",
+    "status": "active",
+    "summary": "Study Registry client — register, search, and manage reproducible computational studies.",
+    "tags": [
+      "technology",
+      "t3-r2",
+      "t",
+      "dashboard",
+      "studyreg",
+      "registry",
+      "client"
+    ],
+    "links": [
+      {
+        "label": "README",
+        "href": "https://github.com/K-RnD-Lab/SPHERE-III-TECHNOLOGY/blob/main/T3%20-%20Dashboards%2C%20Interfaces%20%26%20Open%20Infrastructure/T3-R2%20-%20Study%20Registry%20Client/R2a-studyreg/README.md"
+      },
+      {
+        "label": "Folder",
+        "href": "https://github.com/K-RnD-Lab/SPHERE-III-TECHNOLOGY/tree/main/T3%20-%20Dashboards%2C%20Interfaces%20%26%20Open%20Infrastructure/T3-R2%20-%20Study%20Registry%20Client/R2a-studyreg"
+      }
+    ],
+    "primarySphere": "technology",
+    "secondarySpheres": [],
+    "combo": "T",
+    "artifactType": "dashboard",
+    "deliveryLayers": [
+      "GitHub"
+    ],
+    "validationStage": "prototype"
   }
 ]
