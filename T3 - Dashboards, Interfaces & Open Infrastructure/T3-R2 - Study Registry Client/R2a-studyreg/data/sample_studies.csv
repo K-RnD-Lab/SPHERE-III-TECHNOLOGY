@@ -1,0 +1,9 @@
+id,title,repo,tags,sphere,domain,status,date
+STU-0001,"Oncology survival analysis with XGBoost",https://github.com/example/oncology-survival,oncology;survival;xgboost,S,oncology,completed,2025-01-15
+STU-0002,"Crop disease detection via satellite imagery",https://github.com/example/crop-disease,agriculture;remote-sensing;diagnostic,S,agriculture,registered,2025-02-20
+STU-0003,"AI-powered clinical trial matching platform",https://github.com/example/trial-match,genomics;clinical-trials;AI,S,oncology,registered,2025-03-01
+STU-0004,"Reproducibility audit of ML benchmarks",https://github.com/example/ml-audit,reproducibility;benchmark;ML,T,general,completed,2025-01-30
+STU-0005,"Startup MVP validation framework",https://github.com/example/mvp-validate,startup;MVP;validation,E,general,completed,2025-04-10
+STU-0006,"Soil microbiome diversity under drought stress",https://github.com/example/soil-microbiome,agriculture;microbiome;drought,S,agriculture,completed,2025-02-28
+STU-0007,"Open source API gateway for research data",https://github.com/example/api-gateway,api;infrastructure;open-source,T,general,registered,2025-05-01
+STU-0008,"Venture orbit canvas scoring tool",https://github.com/example/orbit-canvas,venture;scoring;canvas,E,general,registered,2025-04-15

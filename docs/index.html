@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>SPHERE III Technology — Python Packages</title>
+  <style>
+    :root { --bg: #0a0a0a; --card: #141414; --line: #222; --ink: #e8e8e8; --muted: #888; --accent: #1e7a5e; --s: #3b82f6; --e: #f59e0b; --t: #1e7a5e; }
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body { font-family: -apple-system, system-ui, sans-serif; background: var(--bg); color: var(--ink); line-height: 1.6; }
+    .container { max-width: 900px; margin: 0 auto; padding: 40px 20px; }
+    h1 { font-size: 28px; margin-bottom: 8px; }
+    h1 span { color: var(--accent); }
+    .subtitle { color: var(--muted); margin-bottom: 40px; font-size: 15px; }
+    .pkg-grid { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 20px; }
+    @media (max-width: 700px) { .pkg-grid { grid-template-columns: 1fr; } }
+    .pkg-card { background: var(--card); border: 1px solid var(--line); border-radius: 16px; padding: 24px; display: flex; flex-direction: column; gap: 12px; }
+    .pkg-card h2 { font-size: 20px; display: flex; align-items: center; gap: 8px; }
+    .chip { display: inline-block; padding: 2px 8px; border-radius: 6px; font-size: 11px; font-weight: 600; text-transform: uppercase; }
+    .chip-s { background: rgba(59,130,246,.15); color: var(--s); }
+    .chip-e { background: rgba(245,158,11,.15); color: var(--e); }
+    .chip-t { background: rgba(30,122,94,.15); color: var(--t); }
+    .pkg-desc { color: var(--muted); font-size: 14px; }
+    .pkg-install { background: #1a1a1a; border: 1px solid var(--line); border-radius: 8px; padding: 10px 14px; font-family: monospace; font-size: 13px; color: var(--accent); }
+    .pkg-link { display: inline-block; color: var(--accent); text-decoration: none; font-size: 13px; font-weight: 600; }
+    .pkg-link:hover { text-decoration: underline; }
+    .badges { display: flex; gap: 8px; flex-wrap: wrap; margin-top: 4px; }
+    .badges img { height: 20px; }
+    footer { margin-top: 60px; text-align: center; color: var(--muted); font-size: 12px; }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>SPHERE III <span>Technology</span></h1>
+    <p class="subtitle">Open-source Python packages by [K-RnD Lab] — reproducibility, scoring, and study registry tools for computational science</p>
+
+    <div class="pkg-grid">
+      <div class="pkg-card">
+        <h2><span class="chip chip-t">T1</span> bioscore</h2>
+        <p class="pkg-desc">Biomedical scoring — reproducibility, data quality, model readiness. One command, three checks.</p>
+        <div class="badges">
+          <img src="https://img.shields.io/pypi/v/bioscore.svg" alt="PyPI">
+          <img src="https://img.shields.io/pypi/dm/bioscore.svg" alt="Downloads">
+        </div>
+        <div class="pkg-install">pip install bioscore</div>
+        <a class="pkg-link" href="https://pypi.org/project/bioscore/">PyPI →</a>
+        <a class="pkg-link" href="https://github.com/K-RnD-Lab/SPHERE-III-TECHNOLOGY/tree/main/T1%20-%20Research%20Tools%2C%20ML%20%26%20Analytical%20Engines/T1-R2%20-%20Biomedical%20Scoring%20Toolkit/R2a-bioscore">Source →</a>
+      </div>
+
+      <div class="pkg-card">
+        <h2><span class="chip chip-e">T2</span> set-method</h2>
+        <p class="pkg-desc">SET methodology — classify, score, recommend across Science, Entrepreneurship, Technology.</p>
+        <div class="badges">
+          <img src="https://img.shields.io/pypi/v/set-method.svg" alt="PyPI">
+          <img src="https://img.shields.io/pypi/dm/set-method.svg" alt="Downloads">
+        </div>
+        <div class="pkg-install">pip install set-method</div>
+        <a class="pkg-link" href="https://pypi.org/project/set-method/">PyPI →</a>
+        <a class="pkg-link" href="https://github.com/K-RnD-Lab/SPHERE-III-TECHNOLOGY/tree/main/T2%20-%20Reproducibility%2C%20Scoring%20%26%20Method%20Systems/T2-R2%20-%20SET%20Method%20Toolkit/R2a-set-method">Source →</a>
+      </div>
+
+      <div class="pkg-card">
+        <h2><span class="chip chip-s">T3</span> studyreg</h2>
+        <p class="pkg-desc">Study Registry — register, search, validate computational studies. Pre-registration as code.</p>
+        <div class="badges">
+          <img src="https://img.shields.io/pypi/v/studyreg.svg" alt="PyPI">
+          <img src="https://img.shields.io/pypi/dm/studyreg.svg" alt="Downloads">
+        </div>
+        <div class="pkg-install">pip install studyreg</div>
+        <a class="pkg-link" href="https://pypi.org/project/studyreg/">PyPI →</a>
+        <a class="pkg-link" href="https://github.com/K-RnD-Lab/SPHERE-III-TECHNOLOGY/tree/main/T3%20-%20Dashboards%2C%20Interfaces%20%26%20Open%20Infrastructure/T3-R2%20-%20Study%20Registry%20Client/R2a-studyreg">Source →</a>
+      </div>
+    </div>
+
+    <footer>
+      MIT © [K-RnD Lab] · <a href="https://github.com/K-RnD-Lab/SPHERE-III-TECHNOLOGY" style="color:var(--accent)">GitHub</a>
+    </footer>
+  </div>
+</body>
+</html>

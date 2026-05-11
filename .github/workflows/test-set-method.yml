@@ -1,0 +1,30 @@
+name: Test set-method
+
+on:
+  push:
+    paths:
+      - "T2 - Reproducibility, Scoring & Method Systems/T2-R2 - SET Method Toolkit/R2a-set-method/**"
+  pull_request:
+    paths:
+      - "T2 - Reproducibility, Scoring & Method Systems/T2-R2 - SET Method Toolkit/R2a-set-method/**"
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        python-version: ["3.9", "3.11", "3.13"]
+    steps:
+      - uses: actions/checkout@v4
+      - name: Set up Python ${{ matrix.python-version }}
+        uses: actions/setup-python@v5
+        with:
+          python-version: ${{ matrix.python-version }}
+      - name: Install package
+        run: |
+          cd "T2 - Reproducibility, Scoring & Method Systems/T2-R2 - SET Method Toolkit/R2a-set-method"
+          pip install -e .
+      - name: Run tests
+        run: |
+          cd "T2 - Reproducibility, Scoring & Method Systems/T2-R2 - SET Method Toolkit/R2a-set-method"
+          python -m pytest tests/ -v

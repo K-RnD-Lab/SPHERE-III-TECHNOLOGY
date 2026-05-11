@@ -1,0 +1,30 @@
+name: Test bioscore
+
+on:
+  push:
+    paths:
+      - "T1 - Research Tools, ML & Analytical Engines/T1-R2 - Biomedical Scoring Toolkit/R2a-bioscore/**"
+  pull_request:
+    paths:
+      - "T1 - Research Tools, ML & Analytical Engines/T1-R2 - Biomedical Scoring Toolkit/R2a-bioscore/**"
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        python-version: ["3.9", "3.11", "3.13"]
+    steps:
+      - uses: actions/checkout@v4
+      - name: Set up Python ${{ matrix.python-version }}
+        uses: actions/setup-python@v5
+        with:
+          python-version: ${{ matrix.python-version }}
+      - name: Install package
+        run: |
+          cd "T1 - Research Tools, ML & Analytical Engines/T1-R2 - Biomedical Scoring Toolkit/R2a-bioscore"
+          pip install -e .
+      - name: Run tests
+        run: |
+          cd "T1 - Research Tools, ML & Analytical Engines/T1-R2 - Biomedical Scoring Toolkit/R2a-bioscore"
+          python -m pytest tests/ -v
