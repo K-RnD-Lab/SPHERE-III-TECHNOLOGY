@@ -25,19 +25,31 @@ def _inspect_pickle(source: str) -> dict:
     try:
         with open(p, "rb") as f:
             obj = pickle.load(f)
-        obj_str = str(obj)
     except Exception:
         return {"artifact_type": "unreadable", "checks_passed": {}}
 
+    # Gather all searchable text: str representation + attribute names + values
+    obj_str = str(obj)
+    attr_names = " ".join(dir(obj))
+    attr_keys = ""
+    attr_values = ""
+    try:
+        obj_vars = vars(obj)
+        attr_keys = " ".join(str(k) for k in obj_vars.keys())
+        attr_values = " ".join(str(v) for v in obj_vars.values())
+    except Exception:
+        pass
+    searchable = f"{obj_str} {attr_names} {attr_keys} {attr_values}"
+
     checks_passed: dict[str, bool] = {}
-    checks_passed["validation_split"] = bool(re.search(r"val|valid|test_split", obj_str, re.IGNORECASE))
-    checks_passed["bias_audit"] = bool(re.search(r"bias|fairness|parity", obj_str, re.IGNORECASE))
-    checks_passed["performance_metrics"] = bool(re.search(r"accuracy|f1|auc|precision|recall|score", obj_str, re.IGNORECASE))
-    checks_passed["version_tag"] = bool(re.search(r"version|v\d", obj_str, re.IGNORECASE))
-    checks_passed["input_schema"] = bool(re.search(r"schema|feature_names|columns|input", obj_str, re.IGNORECASE))
-    checks_passed["error_handling"] = bool(re.search(r"try|except|error|raise", obj_str, re.IGNORECASE))
-    checks_passed["documentation"] = bool(re.search(r"doc|description|readme", obj_str, re.IGNORECASE))
-    checks_passed["test_coverage"] = bool(re.search(r"test|coverage", obj_str, re.IGNORECASE))
+    checks_passed["validation_split"] = bool(re.search(r"val|valid|test_split|train_test", searchable, re.IGNORECASE))
+    checks_passed["bias_audit"] = bool(re.search(r"bias|fairness|parity", searchable, re.IGNORECASE))
+    checks_passed["performance_metrics"] = bool(re.search(r"accuracy|f1|auc|precision|recall|score|metric", searchable, re.IGNORECASE))
+    checks_passed["version_tag"] = bool(re.search(r"version|v\d|__version__", searchable, re.IGNORECASE))
+    checks_passed["input_schema"] = bool(re.search(r"schema|feature_names|columns|input|n_features", searchable, re.IGNORECASE))
+    checks_passed["error_handling"] = bool(re.search(r"try|except|error|raise", searchable, re.IGNORECASE))
+    checks_passed["documentation"] = bool(re.search(r"doc|description|readme", searchable, re.IGNORECASE))
+    checks_passed["test_coverage"] = bool(re.search(r"test|coverage", searchable, re.IGNORECASE))
 
     return {"artifact_type": type(obj).__name__, "checks_passed": checks_passed}
 

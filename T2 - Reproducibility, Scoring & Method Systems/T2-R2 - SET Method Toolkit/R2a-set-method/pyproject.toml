@@ -4,7 +4,7 @@ build-backend = "hatchling.build"
 
 [project]
 name = "set-method"
-version = "0.1.0"
+version = "0.2.0"
 description = "Programmatic SET framework: classify projects into Science/Entrepreneurship/Technology spheres, score with dual frameworks, recommend quests by personality type"
 readme = "README.md"
 license = "MIT"

@@ -4,7 +4,7 @@ build-backend = "hatchling.build"
 
 [project]
 name = "bioscore"
-version = "0.1.0"
+version = "0.2.0"
 description = "Zero-dependency biomedical scoring: reproducibility audit, domain-aware data quality, and ML model readiness gate — one pip install, three checks"
 readme = "README.md"
 license = "MIT"
