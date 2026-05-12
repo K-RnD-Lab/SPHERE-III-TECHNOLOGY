@@ -50,6 +50,16 @@ def test_recommend_invalid_personality():
         pass
 
 
+def test_classify_oncology_research_is_science():
+    result = classify("BRCA2 miRNA oncology research with ML pipeline for biomarker discovery")
+    assert result["primary"] == "S", f"Expected S, got {result['primary']}"
+
+
+def test_classify_biomedical_clinical_is_science():
+    result = classify("Clinical trial for cancer therapy pharmaceutical drug")
+    assert result["primary"] == "S", f"Expected S, got {result['primary']}"
+
+
 def test_recommend_invalid_sphere():
     try:
         recommend("engineer", "X")
