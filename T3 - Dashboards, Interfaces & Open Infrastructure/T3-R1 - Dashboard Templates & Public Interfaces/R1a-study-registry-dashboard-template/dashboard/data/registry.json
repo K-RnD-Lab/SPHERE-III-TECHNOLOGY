@@ -1581,12 +1581,50 @@
     "validationStage": "exploratory"
   },
   {
-    "title": "S7-K · 👥 Personal Relationship",
+    "title": "R1a Partner Pool Assumption Simulator",
+    "sphere": "science",
+    "track": "S7-K",
+    "entryType": "study",
+    "status": "scaffold",
+    "summary": "How can K R&D Lab build a transparent, ethical alternative to viral \"ideal partner\" calculators using documented demographic assumptions instead of opaque hype?",
+    "tags": [
+      "science",
+      "s7-k",
+      "s+t",
+      "research-tool",
+      "r1a",
+      "partner",
+      "pool"
+    ],
+    "links": [
+      {
+        "label": "README",
+        "href": "https://github.com/K-RnD-Lab/SPHERE-I-SCIENCE/blob/main/S7%20%E2%80%94%20%F0%9F%93%9A%20K%20Life%20OS/S7-K%20%C2%B7%20%F0%9F%91%A5%20Personal%20Relationship/R1a-partner-pool-assumption-simulator/README.md"
+      },
+      {
+        "label": "Folder",
+        "href": "https://github.com/K-RnD-Lab/SPHERE-I-SCIENCE/tree/main/S7%20%E2%80%94%20%F0%9F%93%9A%20K%20Life%20OS/S7-K%20%C2%B7%20%F0%9F%91%A5%20Personal%20Relationship/R1a-partner-pool-assumption-simulator"
+      }
+    ],
+    "primarySphere": "science",
+    "secondarySpheres": [
+      "technology"
+    ],
+    "combo": "S+T",
+    "artifactType": "research_tool",
+    "deliveryLayers": [
+      "GitHub",
+      "Hugging Face"
+    ],
+    "validationStage": "prototype"
+  },
+  {
+    "title": "S7-K · Personal Relationship",
     "sphere": "science",
     "track": "S7-K",
     "entryType": "study",
     "status": "active",
-    "summary": "A sub-lane inside 📚 S7 — K Life OS.",
+    "summary": "A sub-lane inside S7 - K Life OS.",
     "tags": [
       "science",
       "s7-k",
