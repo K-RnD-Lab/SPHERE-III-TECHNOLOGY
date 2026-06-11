@@ -1299,12 +1299,49 @@
     "validationStage": "exploratory"
   },
   {
-    "title": "S7-D · 💵 Finance",
+    "title": "R1 - Investment Systems & Paper Trading",
+    "sphere": "science",
+    "track": "S7-D",
+    "entryType": "study",
+    "status": "scaffold",
+    "summary": "S7-D-R1 is the finance-facing research home for the investment monitoring environment, VM paper bot, browser simulation layer, and dashboard state model.",
+    "tags": [
+      "science",
+      "s7-d",
+      "s+t",
+      "research-tool",
+      "investment",
+      "paper",
+      "trading"
+    ],
+    "links": [
+      {
+        "label": "README",
+        "href": "https://github.com/K-RnD-Lab/SPHERE-I-SCIENCE/blob/main/S7%20%E2%80%94%20%F0%9F%93%9A%20K%20Life%20OS/S7-D%20%C2%B7%20%F0%9F%92%B5%20Finance/R1%20-%20Investment%20Systems%20%26%20Paper%20Trading/README.md"
+      },
+      {
+        "label": "Folder",
+        "href": "https://github.com/K-RnD-Lab/SPHERE-I-SCIENCE/tree/main/S7%20%E2%80%94%20%F0%9F%93%9A%20K%20Life%20OS/S7-D%20%C2%B7%20%F0%9F%92%B5%20Finance/R1%20-%20Investment%20Systems%20%26%20Paper%20Trading"
+      }
+    ],
+    "primarySphere": "science",
+    "secondarySpheres": [
+      "technology"
+    ],
+    "combo": "S+T",
+    "artifactType": "research_tool",
+    "deliveryLayers": [
+      "GitHub"
+    ],
+    "validationStage": "scaffold"
+  },
+  {
+    "title": "S7-D - Finance",
     "sphere": "science",
     "track": "S7-D",
     "entryType": "study",
     "status": "active",
-    "summary": "A sub-lane inside 📚 S7 — K Life OS.",
+    "summary": "A sub-lane inside S7 - K Life OS.",
     "tags": [
       "science",
       "s7-d",
