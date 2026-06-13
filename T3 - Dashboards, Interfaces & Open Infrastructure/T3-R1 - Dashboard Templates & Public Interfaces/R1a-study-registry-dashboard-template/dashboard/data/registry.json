@@ -1303,7 +1303,7 @@
     "sphere": "science",
     "track": "S7-D",
     "entryType": "study",
-    "status": "scaffold",
+    "status": "active",
     "summary": "S7-D-R1 is the finance-facing research home for the investment monitoring environment, VM paper bot, browser simulation layer, and dashboard state model.",
     "tags": [
       "science",
@@ -1333,7 +1333,7 @@
     "deliveryLayers": [
       "GitHub"
     ],
-    "validationStage": "scaffold"
+    "validationStage": "prototype"
   },
   {
     "title": "S7-D - Finance",
