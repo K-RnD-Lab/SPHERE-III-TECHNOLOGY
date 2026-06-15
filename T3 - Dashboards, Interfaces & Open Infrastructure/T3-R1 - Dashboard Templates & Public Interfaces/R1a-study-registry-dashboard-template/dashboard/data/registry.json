@@ -1833,6 +1833,79 @@
     "validationStage": "exploratory"
   },
   {
+    "title": "R2a Project Roast & Venture Stress-Test Methodology",
+    "sphere": "entrepreneurship",
+    "track": "E1-R2",
+    "entryType": "study",
+    "status": "scaffold",
+    "summary": "How can K R&D Lab review early-stage projects in a way that is sharp, useful, ethical, and commercially actionable without reducing the work to casual criticism?",
+    "tags": [
+      "entrepreneurship",
+      "e1-r2",
+      "e+t",
+      "methodology",
+      "r2a",
+      "project",
+      "roast"
+    ],
+    "links": [
+      {
+        "label": "README",
+        "href": "https://github.com/K-RnD-Lab/SPHERE-II-ENTREPRENEURSHIP/blob/main/E1%20-%20Venture%2C%20Product%20%26%20Opportunity%20Systems/E1-R2%20-%20Product%20%26%20Venture%20Validation/R2a-project-roast-methodology/README.md"
+      },
+      {
+        "label": "Folder",
+        "href": "https://github.com/K-RnD-Lab/SPHERE-II-ENTREPRENEURSHIP/tree/main/E1%20-%20Venture%2C%20Product%20%26%20Opportunity%20Systems/E1-R2%20-%20Product%20%26%20Venture%20Validation/R2a-project-roast-methodology"
+      }
+    ],
+    "primarySphere": "entrepreneurship",
+    "secondarySpheres": [
+      "science",
+      "technology"
+    ],
+    "combo": "E+T",
+    "artifactType": "methodology",
+    "deliveryLayers": [
+      "GitHub"
+    ],
+    "validationStage": "active_method"
+  },
+  {
+    "title": "R2b ISR Public Project Roast Draft",
+    "sphere": "entrepreneurship",
+    "track": "E1-R2",
+    "entryType": "public case",
+    "status": "active",
+    "summary": "Consent-required draft.",
+    "tags": [
+      "entrepreneurship",
+      "e1-r2",
+      "e",
+      "venture-case",
+      "r2b",
+      "isr",
+      "public"
+    ],
+    "links": [
+      {
+        "label": "README",
+        "href": "https://github.com/K-RnD-Lab/SPHERE-II-ENTREPRENEURSHIP/blob/main/E1%20-%20Venture%2C%20Product%20%26%20Opportunity%20Systems/E1-R2%20-%20Product%20%26%20Venture%20Validation/R2b-isr-public-project-roast-draft/README.md"
+      },
+      {
+        "label": "Folder",
+        "href": "https://github.com/K-RnD-Lab/SPHERE-II-ENTREPRENEURSHIP/tree/main/E1%20-%20Venture%2C%20Product%20%26%20Opportunity%20Systems/E1-R2%20-%20Product%20%26%20Venture%20Validation/R2b-isr-public-project-roast-draft"
+      }
+    ],
+    "primarySphere": "entrepreneurship",
+    "secondarySpheres": [],
+    "combo": "E",
+    "artifactType": "venture_case",
+    "deliveryLayers": [
+      "GitHub"
+    ],
+    "validationStage": "active_case"
+  },
+  {
     "title": "R1a Translational Audience Segments",
     "sphere": "entrepreneurship",
     "track": "E2-R1",
