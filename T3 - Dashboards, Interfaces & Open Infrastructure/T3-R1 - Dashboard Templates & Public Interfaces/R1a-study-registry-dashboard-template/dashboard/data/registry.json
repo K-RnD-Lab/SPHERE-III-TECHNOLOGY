@@ -1476,12 +1476,86 @@
     "validationStage": "exploratory"
   },
   {
-    "title": "S7-H · 🌳 Physical Health",
+    "title": "R1 - Physical Conditioning & Cognitive Energy",
+    "sphere": "science",
+    "track": "S7-H",
+    "entryType": "study",
+    "status": "scaffold",
+    "summary": "S7-H-R1 is the movement-facing research line for walking, running, gym training, home workouts, conditioning, recovery, and cognitive energy.",
+    "tags": [
+      "science",
+      "s7-h",
+      "s+t",
+      "life-system-research",
+      "physical",
+      "conditioning",
+      "cognitive"
+    ],
+    "links": [
+      {
+        "label": "README",
+        "href": "https://github.com/K-RnD-Lab/SPHERE-I-SCIENCE/blob/main/S7%20%E2%80%94%20%F0%9F%93%9A%20K%20Life%20OS/S7-H%20%C2%B7%20%F0%9F%8C%B3%20Physical%20Health/R1%20-%20Physical%20Conditioning%20%26%20Cognitive%20Energy/README.md"
+      },
+      {
+        "label": "Folder",
+        "href": "https://github.com/K-RnD-Lab/SPHERE-I-SCIENCE/tree/main/S7%20%E2%80%94%20%F0%9F%93%9A%20K%20Life%20OS/S7-H%20%C2%B7%20%F0%9F%8C%B3%20Physical%20Health/R1%20-%20Physical%20Conditioning%20%26%20Cognitive%20Energy"
+      }
+    ],
+    "primarySphere": "science",
+    "secondarySpheres": [
+      "technology"
+    ],
+    "combo": "S+T",
+    "artifactType": "life_system_research",
+    "deliveryLayers": [
+      "GitHub"
+    ],
+    "validationStage": "active_scaffold"
+  },
+  {
+    "title": "R2 - Nutrition & Cognitive Energy",
+    "sphere": "science",
+    "track": "S7-H",
+    "entryType": "study",
+    "status": "scaffold",
+    "summary": "S7-H-R2 is the nutrition-facing research line for comfortable diet design, meal structure, micronutrient awareness, supplement safety, and cognitive energy.",
+    "tags": [
+      "science",
+      "s7-h",
+      "s+t",
+      "life-system-research",
+      "nutrition",
+      "cognitive",
+      "energy"
+    ],
+    "links": [
+      {
+        "label": "README",
+        "href": "https://github.com/K-RnD-Lab/SPHERE-I-SCIENCE/blob/main/S7%20%E2%80%94%20%F0%9F%93%9A%20K%20Life%20OS/S7-H%20%C2%B7%20%F0%9F%8C%B3%20Physical%20Health/R2%20-%20Nutrition%20%26%20Cognitive%20Energy/README.md"
+      },
+      {
+        "label": "Folder",
+        "href": "https://github.com/K-RnD-Lab/SPHERE-I-SCIENCE/tree/main/S7%20%E2%80%94%20%F0%9F%93%9A%20K%20Life%20OS/S7-H%20%C2%B7%20%F0%9F%8C%B3%20Physical%20Health/R2%20-%20Nutrition%20%26%20Cognitive%20Energy"
+      }
+    ],
+    "primarySphere": "science",
+    "secondarySpheres": [
+      "technology"
+    ],
+    "combo": "S+T",
+    "artifactType": "life_system_research",
+    "deliveryLayers": [
+      "GitHub"
+    ],
+    "validationStage": "active_scaffold"
+  },
+  {
+    "title": "S7-H - Physical Health",
     "sphere": "science",
     "track": "S7-H",
     "entryType": "study",
     "status": "active",
-    "summary": "A sub-lane inside 📚 S7 — K Life OS.",
+    "summary": "A sub-lane inside S7 - K Life OS.",
     "tags": [
       "science",
       "s7-h",
@@ -1894,6 +1968,114 @@
       {
         "label": "Folder",
         "href": "https://github.com/K-RnD-Lab/SPHERE-II-ENTREPRENEURSHIP/tree/main/E1%20-%20Venture%2C%20Product%20%26%20Opportunity%20Systems/E1-R2%20-%20Product%20%26%20Venture%20Validation/R2b-isr-public-project-roast-draft"
+      }
+    ],
+    "primarySphere": "entrepreneurship",
+    "secondarySpheres": [],
+    "combo": "E",
+    "artifactType": "venture_case",
+    "deliveryLayers": [
+      "GitHub"
+    ],
+    "validationStage": "active_case"
+  },
+  {
+    "title": "E1-R3 - Project Resonance & Perspective Reviews",
+    "sphere": "entrepreneurship",
+    "track": "E1-R3",
+    "entryType": "study",
+    "status": "active",
+    "summary": "This research line is separate from E1-R2 - Product & Venture Validation.",
+    "tags": [
+      "entrepreneurship",
+      "e1-r3",
+      "e",
+      "venture-case",
+      "project",
+      "resonance",
+      "perspective"
+    ],
+    "links": [
+      {
+        "label": "README",
+        "href": "https://github.com/K-RnD-Lab/SPHERE-II-ENTREPRENEURSHIP/blob/main/E1%20-%20Venture%2C%20Product%20%26%20Opportunity%20Systems/E1-R3%20-%20Project%20Resonance%20%26%20Perspective%20Reviews/README.md"
+      },
+      {
+        "label": "Folder",
+        "href": "https://github.com/K-RnD-Lab/SPHERE-II-ENTREPRENEURSHIP/tree/main/E1%20-%20Venture%2C%20Product%20%26%20Opportunity%20Systems/E1-R3%20-%20Project%20Resonance%20%26%20Perspective%20Reviews"
+      }
+    ],
+    "primarySphere": "entrepreneurship",
+    "secondarySpheres": [],
+    "combo": "E",
+    "artifactType": "venture_case",
+    "deliveryLayers": [
+      "GitHub"
+    ],
+    "validationStage": "active_case"
+  },
+  {
+    "title": "R3 Project Resonance Review Methodology",
+    "sphere": "entrepreneurship",
+    "track": "E1-R3",
+    "entryType": "study",
+    "status": "scaffold",
+    "summary": "How can K R&D Lab document a personal but rigorous project impression: what feels promising, what feels weak, what associations appear, and whether the project seems worth watching, supporting, testing, or avoiding?",
+    "tags": [
+      "entrepreneurship",
+      "e1-r3",
+      "e+t",
+      "methodology",
+      "project",
+      "resonance",
+      "review"
+    ],
+    "links": [
+      {
+        "label": "README",
+        "href": "https://github.com/K-RnD-Lab/SPHERE-II-ENTREPRENEURSHIP/blob/main/E1%20-%20Venture%2C%20Product%20%26%20Opportunity%20Systems/E1-R3%20-%20Project%20Resonance%20%26%20Perspective%20Reviews/R3-project-resonance-review-methodology/README.md"
+      },
+      {
+        "label": "Folder",
+        "href": "https://github.com/K-RnD-Lab/SPHERE-II-ENTREPRENEURSHIP/tree/main/E1%20-%20Venture%2C%20Product%20%26%20Opportunity%20Systems/E1-R3%20-%20Project%20Resonance%20%26%20Perspective%20Reviews/R3-project-resonance-review-methodology"
+      }
+    ],
+    "primarySphere": "entrepreneurship",
+    "secondarySpheres": [
+      "science",
+      "technology"
+    ],
+    "combo": "E+T",
+    "artifactType": "methodology",
+    "deliveryLayers": [
+      "GitHub"
+    ],
+    "validationStage": "active_method"
+  },
+  {
+    "title": "R3a ISR Project Resonance Review Draft",
+    "sphere": "entrepreneurship",
+    "track": "E1-R3",
+    "entryType": "study",
+    "status": "active",
+    "summary": "Consent-required draft.",
+    "tags": [
+      "entrepreneurship",
+      "e1-r3",
+      "e",
+      "venture-case",
+      "r3a",
+      "isr",
+      "project"
+    ],
+    "links": [
+      {
+        "label": "README",
+        "href": "https://github.com/K-RnD-Lab/SPHERE-II-ENTREPRENEURSHIP/blob/main/E1%20-%20Venture%2C%20Product%20%26%20Opportunity%20Systems/E1-R3%20-%20Project%20Resonance%20%26%20Perspective%20Reviews/R3a-isr-project-resonance-review-draft/README.md"
+      },
+      {
+        "label": "Folder",
+        "href": "https://github.com/K-RnD-Lab/SPHERE-II-ENTREPRENEURSHIP/tree/main/E1%20-%20Venture%2C%20Product%20%26%20Opportunity%20Systems/E1-R3%20-%20Project%20Resonance%20%26%20Perspective%20Reviews/R3a-isr-project-resonance-review-draft"
       }
     ],
     "primarySphere": "entrepreneurship",
