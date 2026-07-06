@@ -688,6 +688,78 @@
     "validationStage": "taxonomy"
   },
   {
+    "title": "S4-A · PROTEIN-DOMINOES",
+    "sphere": "science",
+    "track": "S4-A",
+    "entryType": "study",
+    "status": "active",
+    "summary": "First S4 sub-lane (A→B→C…). Cross-organism misfolding & aggregation chemistry.",
+    "tags": [
+      "science",
+      "s4-a",
+      "s",
+      "hypothesis",
+      "protein-dominoes",
+      "first",
+      "sub-lane"
+    ],
+    "links": [
+      {
+        "label": "README",
+        "href": "https://github.com/K-RnD-Lab/SPHERE-I-SCIENCE/blob/main/S4%20%E2%80%94%20%E2%9A%97%EF%B8%8F%20Biochemistry%20%26%20Metabolomics/S4-A%20%C2%B7%20%F0%9F%A7%AA%20PROTEIN-DOMINOES/README.md"
+      },
+      {
+        "label": "Folder",
+        "href": "https://github.com/K-RnD-Lab/SPHERE-I-SCIENCE/tree/main/S4%20%E2%80%94%20%E2%9A%97%EF%B8%8F%20Biochemistry%20%26%20Metabolomics/S4-A%20%C2%B7%20%F0%9F%A7%AA%20PROTEIN-DOMINOES"
+      }
+    ],
+    "primarySphere": "science",
+    "secondarySpheres": [],
+    "combo": "S",
+    "artifactType": "hypothesis",
+    "deliveryLayers": [
+      "GitHub"
+    ],
+    "validationStage": "exploratory"
+  },
+  {
+    "title": "S4-A-R1 · MISFOLDING-FUEL",
+    "sphere": "science",
+    "track": "S4-A-R1",
+    "entryType": "study",
+    "status": "active",
+    "summary": "Sober name: PrP aggregation chemistry & «fuel» for templated misfolding (⚠ PRIMER)",
+    "tags": [
+      "science",
+      "s4-a-r1",
+      "s+t",
+      "research-tool",
+      "misfolding-fuel",
+      "sober",
+      "name"
+    ],
+    "links": [
+      {
+        "label": "README",
+        "href": "https://github.com/K-RnD-Lab/SPHERE-I-SCIENCE/blob/main/S4%20%E2%80%94%20%E2%9A%97%EF%B8%8F%20Biochemistry%20%26%20Metabolomics/S4-A%20%C2%B7%20%F0%9F%A7%AA%20PROTEIN-DOMINOES/S4-A-R1%20%C2%B7%20MISFOLDING-FUEL/README.md"
+      },
+      {
+        "label": "Folder",
+        "href": "https://github.com/K-RnD-Lab/SPHERE-I-SCIENCE/tree/main/S4%20%E2%80%94%20%E2%9A%97%EF%B8%8F%20Biochemistry%20%26%20Metabolomics/S4-A%20%C2%B7%20%F0%9F%A7%AA%20PROTEIN-DOMINOES/S4-A-R1%20%C2%B7%20MISFOLDING-FUEL"
+      }
+    ],
+    "primarySphere": "science",
+    "secondarySpheres": [
+      "technology"
+    ],
+    "combo": "S+T",
+    "artifactType": "research_tool",
+    "deliveryLayers": [
+      "GitHub"
+    ],
+    "validationStage": "prototype"
+  },
+  {
     "title": "S5 Neuroscience & Aging",
     "sphere": "science",
     "track": "S5",
@@ -723,6 +795,147 @@
       "GitHub"
     ],
     "validationStage": "taxonomy"
+  },
+  {
+    "title": "S5-A · PRION-IN-SILICO",
+    "sphere": "science",
+    "track": "S5-A",
+    "entryType": "study",
+    "status": "scaffold",
+    "summary": "Перший кодовий sub-lane у S5 (букворангування A→B→C…).",
+    "tags": [
+      "science",
+      "s5-a",
+      "s",
+      "hypothesis",
+      "prion-in-silico",
+      "sub-lane"
+    ],
+    "links": [
+      {
+        "label": "README",
+        "href": "https://github.com/K-RnD-Lab/SPHERE-I-SCIENCE/blob/main/S5%20%E2%80%94%20%F0%9F%A7%A0%20Neuroscience%20%26%20Aging/S5-A%20%C2%B7%20%F0%9F%A7%AC%20PRION-IN-SILICO/README.md"
+      },
+      {
+        "label": "Folder",
+        "href": "https://github.com/K-RnD-Lab/SPHERE-I-SCIENCE/tree/main/S5%20%E2%80%94%20%F0%9F%A7%A0%20Neuroscience%20%26%20Aging/S5-A%20%C2%B7%20%F0%9F%A7%AC%20PRION-IN-SILICO"
+      }
+    ],
+    "primarySphere": "science",
+    "secondarySpheres": [],
+    "combo": "S",
+    "artifactType": "hypothesis",
+    "deliveryLayers": [
+      "GitHub"
+    ],
+    "validationStage": "scaffold"
+  },
+  {
+    "title": "S5-A-R1 · PRION-PRP-LOWERING",
+    "sphere": "science",
+    "track": "S5-A-R1",
+    "entryType": "study",
+    "status": "scaffold",
+    "summary": "Lane: S5-A · PRION-IN-SILICO (перший sub-lane S5, A→B→C…)",
+    "tags": [
+      "science",
+      "s5-a-r1",
+      "s",
+      "hypothesis",
+      "prion-prp-lowering",
+      "s5-a",
+      "prion-in-silico"
+    ],
+    "links": [
+      {
+        "label": "README",
+        "href": "https://github.com/K-RnD-Lab/SPHERE-I-SCIENCE/blob/main/S5%20%E2%80%94%20%F0%9F%A7%A0%20Neuroscience%20%26%20Aging/S5-A%20%C2%B7%20%F0%9F%A7%AC%20PRION-IN-SILICO/S5-A-R1%20%C2%B7%20PRION-PRP-LOWERING/README.md"
+      },
+      {
+        "label": "Folder",
+        "href": "https://github.com/K-RnD-Lab/SPHERE-I-SCIENCE/tree/main/S5%20%E2%80%94%20%F0%9F%A7%A0%20Neuroscience%20%26%20Aging/S5-A%20%C2%B7%20%F0%9F%A7%AC%20PRION-IN-SILICO/S5-A-R1%20%C2%B7%20PRION-PRP-LOWERING"
+      }
+    ],
+    "primarySphere": "science",
+    "secondarySpheres": [],
+    "combo": "S",
+    "artifactType": "hypothesis",
+    "deliveryLayers": [
+      "GitHub"
+    ],
+    "validationStage": "scaffold"
+  },
+  {
+    "title": "S5-A-R2 · SPECIES-BARRIER",
+    "sphere": "science",
+    "track": "S5-A-R2",
+    "entryType": "study",
+    "status": "scaffold",
+    "summary": "Sober name: Conspecific pathogen compatibility matrix (⚠ LITERATURE / IN SILICO)",
+    "tags": [
+      "science",
+      "s5-a-r2",
+      "s",
+      "hypothesis",
+      "species-barrier",
+      "sober",
+      "name"
+    ],
+    "links": [
+      {
+        "label": "README",
+        "href": "https://github.com/K-RnD-Lab/SPHERE-I-SCIENCE/blob/main/S5%20%E2%80%94%20%F0%9F%A7%A0%20Neuroscience%20%26%20Aging/S5-A%20%C2%B7%20%F0%9F%A7%AC%20PRION-IN-SILICO/S5-A-R2%20%C2%B7%20SPECIES-BARRIER/README.md"
+      },
+      {
+        "label": "Folder",
+        "href": "https://github.com/K-RnD-Lab/SPHERE-I-SCIENCE/tree/main/S5%20%E2%80%94%20%F0%9F%A7%A0%20Neuroscience%20%26%20Aging/S5-A%20%C2%B7%20%F0%9F%A7%AC%20PRION-IN-SILICO/S5-A-R2%20%C2%B7%20SPECIES-BARRIER"
+      }
+    ],
+    "primarySphere": "science",
+    "secondarySpheres": [],
+    "combo": "S",
+    "artifactType": "hypothesis",
+    "deliveryLayers": [
+      "GitHub"
+    ],
+    "validationStage": "scaffold"
+  },
+  {
+    "title": "S5-A-R3 · FIX-CANNIBALISM",
+    "sphere": "science",
+    "track": "S5-A-R3",
+    "entryType": "study",
+    "status": "scaffold",
+    "summary": "Sober name: Residual biological constraints after PrP lowering (⚠ SCENARIO / HYPOTHESIS)",
+    "tags": [
+      "science",
+      "s5-a-r3",
+      "s+t",
+      "research-tool",
+      "fix-cannibalism",
+      "sober",
+      "name"
+    ],
+    "links": [
+      {
+        "label": "README",
+        "href": "https://github.com/K-RnD-Lab/SPHERE-I-SCIENCE/blob/main/S5%20%E2%80%94%20%F0%9F%A7%A0%20Neuroscience%20%26%20Aging/S5-A%20%C2%B7%20%F0%9F%A7%AC%20PRION-IN-SILICO/S5-A-R3%20%C2%B7%20FIX-CANNIBALISM/README.md"
+      },
+      {
+        "label": "Folder",
+        "href": "https://github.com/K-RnD-Lab/SPHERE-I-SCIENCE/tree/main/S5%20%E2%80%94%20%F0%9F%A7%A0%20Neuroscience%20%26%20Aging/S5-A%20%C2%B7%20%F0%9F%A7%AC%20PRION-IN-SILICO/S5-A-R3%20%C2%B7%20FIX-CANNIBALISM"
+      }
+    ],
+    "primarySphere": "science",
+    "secondarySpheres": [
+      "technology"
+    ],
+    "combo": "S+T",
+    "artifactType": "research_tool",
+    "deliveryLayers": [
+      "GitHub"
+    ],
+    "validationStage": "scaffold"
   },
   {
     "title": "S6 Ecology & Environmental Science",
@@ -1157,6 +1370,80 @@
     "validationStage": "exploratory"
   },
   {
+    "title": "S6-B · CONSPECIFIC-ECOLOGY",
+    "sphere": "science",
+    "track": "S6-B",
+    "entryType": "study",
+    "status": "active",
+    "summary": "S6 lane B — ecology of conspecific vs interspecific consumption (S6-A = K-EcoLOGIC Ukraine lab).",
+    "tags": [
+      "science",
+      "s6-b",
+      "s+t",
+      "research-tool",
+      "conspecific-ecology",
+      "ecology",
+      "conspecific"
+    ],
+    "links": [
+      {
+        "label": "README",
+        "href": "https://github.com/K-RnD-Lab/SPHERE-I-SCIENCE/blob/main/S6%20%E2%80%94%20%F0%9F%8C%8D%20Ecology%20%26%20Environmental%20Science/S6-B%20%C2%B7%20%F0%9F%A6%81%20CONSPECIFIC-ECOLOGY/README.md"
+      },
+      {
+        "label": "Folder",
+        "href": "https://github.com/K-RnD-Lab/SPHERE-I-SCIENCE/tree/main/S6%20%E2%80%94%20%F0%9F%8C%8D%20Ecology%20%26%20Environmental%20Science/S6-B%20%C2%B7%20%F0%9F%A6%81%20CONSPECIFIC-ECOLOGY"
+      }
+    ],
+    "primarySphere": "science",
+    "secondarySpheres": [
+      "technology"
+    ],
+    "combo": "S+T",
+    "artifactType": "research_tool",
+    "deliveryLayers": [
+      "GitHub"
+    ],
+    "validationStage": "prototype"
+  },
+  {
+    "title": "S6-B-R1 · WHY-NOT-EAT-KIN",
+    "sphere": "science",
+    "track": "S6-B-R1",
+    "entryType": "study",
+    "status": "active",
+    "summary": "Sober name: Conspecific consumption in wild & captive systems (⚠ LITERATURE REGISTRY)",
+    "tags": [
+      "science",
+      "s6-b-r1",
+      "s+t",
+      "research-tool",
+      "why-not-eat-kin",
+      "sober",
+      "name"
+    ],
+    "links": [
+      {
+        "label": "README",
+        "href": "https://github.com/K-RnD-Lab/SPHERE-I-SCIENCE/blob/main/S6%20%E2%80%94%20%F0%9F%8C%8D%20Ecology%20%26%20Environmental%20Science/S6-B%20%C2%B7%20%F0%9F%A6%81%20CONSPECIFIC-ECOLOGY/S6-B-R1%20%C2%B7%20WHY-NOT-EAT-KIN/README.md"
+      },
+      {
+        "label": "Folder",
+        "href": "https://github.com/K-RnD-Lab/SPHERE-I-SCIENCE/tree/main/S6%20%E2%80%94%20%F0%9F%8C%8D%20Ecology%20%26%20Environmental%20Science/S6-B%20%C2%B7%20%F0%9F%A6%81%20CONSPECIFIC-ECOLOGY/S6-B-R1%20%C2%B7%20WHY-NOT-EAT-KIN"
+      }
+    ],
+    "primarySphere": "science",
+    "secondarySpheres": [
+      "technology"
+    ],
+    "combo": "S+T",
+    "artifactType": "research_tool",
+    "deliveryLayers": [
+      "GitHub"
+    ],
+    "validationStage": "prototype"
+  },
+  {
     "title": "📚 S7 - K Life OS",
     "sphere": "science",
     "track": "S7",
@@ -1229,6 +1516,41 @@
     "validationStage": "exploratory"
   },
   {
+    "title": "S7-A-R1 · WAR-WITHOUT-CALORIES",
+    "sphere": "science",
+    "track": "S7-A-R1",
+    "entryType": "study",
+    "status": "scaffold",
+    "summary": "Genre: essay / creative nonfiction scaffold (🚀 S7-A Creativity)",
+    "tags": [
+      "science",
+      "s7-a-r1",
+      "s",
+      "hypothesis",
+      "war-without-calories",
+      "genre",
+      "essay"
+    ],
+    "links": [
+      {
+        "label": "README",
+        "href": "https://github.com/K-RnD-Lab/SPHERE-I-SCIENCE/blob/main/S7%20%E2%80%94%20%F0%9F%93%9A%20K%20Life%20OS/S7-A%20%C2%B7%20%F0%9F%9A%80%20Creativity%20or%20Self-Expression/S7-A-R1%20%C2%B7%20WAR-WITHOUT-CALORIES/README.md"
+      },
+      {
+        "label": "Folder",
+        "href": "https://github.com/K-RnD-Lab/SPHERE-I-SCIENCE/tree/main/S7%20%E2%80%94%20%F0%9F%93%9A%20K%20Life%20OS/S7-A%20%C2%B7%20%F0%9F%9A%80%20Creativity%20or%20Self-Expression/S7-A-R1%20%C2%B7%20WAR-WITHOUT-CALORIES"
+      }
+    ],
+    "primarySphere": "science",
+    "secondarySpheres": [],
+    "combo": "S",
+    "artifactType": "hypothesis",
+    "deliveryLayers": [
+      "GitHub"
+    ],
+    "validationStage": "scaffold"
+  },
+  {
     "title": "S7-B · 👨‍🏫 Personal Development or Self-Care",
     "sphere": "science",
     "track": "S7-B",
@@ -1252,6 +1574,41 @@
       {
         "label": "Folder",
         "href": "https://github.com/K-RnD-Lab/SPHERE-I-SCIENCE/tree/main/S7%20%E2%80%94%20%F0%9F%93%9A%20K%20Life%20OS/S7-B%20%C2%B7%20%F0%9F%91%A8%E2%80%8D%F0%9F%8F%AB%20Personal%20Development%20or%20Self-Care"
+      }
+    ],
+    "primarySphere": "science",
+    "secondarySpheres": [],
+    "combo": "S",
+    "artifactType": "hypothesis",
+    "deliveryLayers": [
+      "GitHub"
+    ],
+    "validationStage": "exploratory"
+  },
+  {
+    "title": "S7-B-R1 · TABOO-AS-MIRROR",
+    "sphere": "science",
+    "track": "S7-B-R1",
+    "entryType": "study",
+    "status": "active",
+    "summary": "Companion to: S7-A-R1",
+    "tags": [
+      "science",
+      "s7-b-r1",
+      "s",
+      "hypothesis",
+      "taboo-as-mirror",
+      "companion",
+      "s7-a-r1"
+    ],
+    "links": [
+      {
+        "label": "README",
+        "href": "https://github.com/K-RnD-Lab/SPHERE-I-SCIENCE/blob/main/S7%20%E2%80%94%20%F0%9F%93%9A%20K%20Life%20OS/S7-B%20%C2%B7%20%F0%9F%91%A8%E2%80%8D%F0%9F%8F%AB%20Personal%20Development%20or%20Self-Care/S7-B-R1%20%C2%B7%20TABOO-AS-MIRROR/README.md"
+      },
+      {
+        "label": "Folder",
+        "href": "https://github.com/K-RnD-Lab/SPHERE-I-SCIENCE/tree/main/S7%20%E2%80%94%20%F0%9F%93%9A%20K%20Life%20OS/S7-B%20%C2%B7%20%F0%9F%91%A8%E2%80%8D%F0%9F%8F%AB%20Personal%20Development%20or%20Self-Care/S7-B-R1%20%C2%B7%20TABOO-AS-MIRROR"
       }
     ],
     "primarySphere": "science",
@@ -1464,6 +1821,41 @@
       {
         "label": "Folder",
         "href": "https://github.com/K-RnD-Lab/SPHERE-I-SCIENCE/tree/main/S7%20%E2%80%94%20%F0%9F%93%9A%20K%20Life%20OS/S7-G%20%C2%B7%20%F0%9F%91%A4%20Community%20Involvement"
+      }
+    ],
+    "primarySphere": "science",
+    "secondarySpheres": [],
+    "combo": "S",
+    "artifactType": "hypothesis",
+    "deliveryLayers": [
+      "GitHub"
+    ],
+    "validationStage": "exploratory"
+  },
+  {
+    "title": "S7-G-R1 · CONDEMNATION-WITHOUT-TEETH",
+    "sphere": "science",
+    "track": "S7-G-R1",
+    "entryType": "study",
+    "status": "active",
+    "summary": "Companion to: S7-A-R1 War Without Calories",
+    "tags": [
+      "science",
+      "s7-g-r1",
+      "s",
+      "hypothesis",
+      "condemnation-without-teeth",
+      "companion",
+      "s7-a-r1"
+    ],
+    "links": [
+      {
+        "label": "README",
+        "href": "https://github.com/K-RnD-Lab/SPHERE-I-SCIENCE/blob/main/S7%20%E2%80%94%20%F0%9F%93%9A%20K%20Life%20OS/S7-G%20%C2%B7%20%F0%9F%91%A4%20Community%20Involvement/S7-G-R1%20%C2%B7%20CONDEMNATION-WITHOUT-TEETH/README.md"
+      },
+      {
+        "label": "Folder",
+        "href": "https://github.com/K-RnD-Lab/SPHERE-I-SCIENCE/tree/main/S7%20%E2%80%94%20%F0%9F%93%9A%20K%20Life%20OS/S7-G%20%C2%B7%20%F0%9F%91%A4%20Community%20Involvement/S7-G-R1%20%C2%B7%20CONDEMNATION-WITHOUT-TEETH"
       }
     ],
     "primarySphere": "science",
