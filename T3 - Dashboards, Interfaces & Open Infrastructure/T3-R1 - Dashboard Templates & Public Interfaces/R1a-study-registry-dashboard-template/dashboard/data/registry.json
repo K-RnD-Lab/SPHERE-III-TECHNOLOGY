@@ -1444,6 +1444,41 @@
     "validationStage": "prototype"
   },
   {
+    "title": "S6-D - Pollution, Stress & Response Networks",
+    "sphere": "science",
+    "track": "S6-D",
+    "entryType": "study",
+    "status": "active",
+    "summary": "S6-D is the pollution-facing research lane inside S6 Ecology & Environmental Science.",
+    "tags": [
+      "science",
+      "s6-d",
+      "s",
+      "hypothesis",
+      "pollution",
+      "stress",
+      "response"
+    ],
+    "links": [
+      {
+        "label": "README",
+        "href": "https://github.com/K-RnD-Lab/SPHERE-I-SCIENCE/blob/main/S6%20%E2%80%94%20%F0%9F%8C%8D%20Ecology%20%26%20Environmental%20Science/S6-D%20-%20Pollution%2C%20Stress%20%26%20Response%20Networks/README.md"
+      },
+      {
+        "label": "Folder",
+        "href": "https://github.com/K-RnD-Lab/SPHERE-I-SCIENCE/tree/main/S6%20%E2%80%94%20%F0%9F%8C%8D%20Ecology%20%26%20Environmental%20Science/S6-D%20-%20Pollution%2C%20Stress%20%26%20Response%20Networks"
+      }
+    ],
+    "primarySphere": "science",
+    "secondarySpheres": [],
+    "combo": "S",
+    "artifactType": "hypothesis",
+    "deliveryLayers": [
+      "GitHub"
+    ],
+    "validationStage": "exploratory"
+  },
+  {
     "title": "📚 S7 - K Life OS",
     "sphere": "science",
     "track": "S7",
@@ -2192,12 +2227,12 @@
     "validationStage": "exploratory"
   },
   {
-    "title": "S7-M · 🧭 Longitudinal Reviews & Life Wheel Synthesis",
+    "title": "S7-M - Longitudinal Reviews & Life Wheel Synthesis",
     "sphere": "science",
     "track": "S7-M",
     "entryType": "study",
     "status": "active",
-    "summary": "A meta-lane inside 📚 S7 - K Life OS.",
+    "summary": "A meta-lane inside S7 - K Life OS.",
     "tags": [
       "science",
       "s7-m",
