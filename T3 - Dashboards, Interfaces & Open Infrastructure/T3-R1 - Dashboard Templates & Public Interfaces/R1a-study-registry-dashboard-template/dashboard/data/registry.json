@@ -2591,6 +2591,44 @@
     "validationStage": "active_case"
   },
   {
+    "title": "E4-A-R2a Ukraine: Critique to Proposal Lab",
+    "sphere": "entrepreneurship",
+    "track": "E4-A",
+    "entryType": "public case",
+    "status": "active",
+    "summary": "This public case maps how a citizen signal can travel through Parliament, Cabinet, ministries, regional administrations, communities, public services, budgets, and evidence of results.",
+    "tags": [
+      "entrepreneurship",
+      "e4-a",
+      "e+t",
+      "public-governance-case",
+      "e4-a-r2a",
+      "ukraine",
+      "critique"
+    ],
+    "links": [
+      {
+        "label": "README",
+        "href": "https://github.com/K-RnD-Lab/SPHERE-II-ENTREPRENEURSHIP/blob/main/E4%20-%20Applied%20Investigations%20%26%20Public%20Cases/E4-A%20-%20Systems%20%26%20Workflow%20Cases/R2a-ukraine-critique-to-proposal-lab/README.md"
+      },
+      {
+        "label": "Folder",
+        "href": "https://github.com/K-RnD-Lab/SPHERE-II-ENTREPRENEURSHIP/tree/main/E4%20-%20Applied%20Investigations%20%26%20Public%20Cases/E4-A%20-%20Systems%20%26%20Workflow%20Cases/R2a-ukraine-critique-to-proposal-lab"
+      }
+    ],
+    "primarySphere": "entrepreneurship",
+    "secondarySpheres": [
+      "technology"
+    ],
+    "combo": "E+T",
+    "artifactType": "public_governance_case",
+    "deliveryLayers": [
+      "GitHub",
+      "Hugging Face"
+    ],
+    "validationStage": "research_scaffold"
+  },
+  {
     "title": "R1a Three-Sphere Research Ops Case",
     "sphere": "entrepreneurship",
     "track": "E4-A",
