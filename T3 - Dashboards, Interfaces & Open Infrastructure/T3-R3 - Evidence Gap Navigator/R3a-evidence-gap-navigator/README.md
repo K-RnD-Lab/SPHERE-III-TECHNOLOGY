@@ -1,6 +1,6 @@
 # Evidence Gap Navigator
 
-[**Live demo: Evidence Gap Navigator**](https://evidence-gap-navigator.streamlit.app/)
+[**Live demo: Evidence Gap Navigator**](https://evidence-gap-navigator-r3.streamlit.app/)
 
 Evidence Gap Navigator is a retrieval-evaluated RAG application for researchers and AI
 engineers who need to understand what the scholarly literature says about evaluating and
