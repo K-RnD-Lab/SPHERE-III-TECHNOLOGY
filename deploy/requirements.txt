@@ -1,0 +1,12 @@
+dlt[duckdb]>=1.15,<2
+groq>=0.31,<1
+httpx>=0.28,<1
+numpy>=1.26,<3
+pandas>=2.2,<3
+plotly>=6.2,<7
+pydantic>=2.11,<3
+python-dotenv>=1.1,<2
+rank-bm25==0.2.2
+scikit-learn>=1.6,<2
+sentence-transformers>=5.1,<6
+streamlit>=1.48,<2
