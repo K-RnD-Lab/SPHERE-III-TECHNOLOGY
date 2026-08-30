@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 import os
+import sys
 from pathlib import Path
 
 import pandas as pd
@@ -8,6 +9,10 @@ import plotly.express as px
 import streamlit as st
 
 ROOT = Path(__file__).resolve().parent
+
+# Cloud deployment starts from the repository root; make this module's package explicit.
+if str(ROOT / "src") not in sys.path:
+    sys.path.insert(0, str(ROOT / "src"))
 
 try:
     if "GROQ_API_KEY" in st.secrets:
