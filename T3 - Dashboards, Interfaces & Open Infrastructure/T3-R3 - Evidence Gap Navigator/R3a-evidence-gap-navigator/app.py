@@ -37,28 +37,37 @@ st.markdown(
     """
     <style>
     @import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Newsreader:opsz,wght@6..72,500;6..72,650&display=swap');
-    :root { --ink:#172019; --fern:#2d5a3c; --sage:#dfe9dc; --paper:#f5f1e7; --amber:#cc7a29; }
+    :root { --ink:#f6f1e7; --muted:#b7c4bb; --fern:#77b58b; --deep:#0b1110;
+      --panel:#14201c; --panel-raised:#1b2b25; --amber:#f3a84e; --line:#2c4138; }
     .stApp { background:
-      radial-gradient(circle at 86% 5%, rgba(204,122,41,.12), transparent 22rem),
-      linear-gradient(135deg, #f7f4eb 0%, #eef3e9 100%); color:var(--ink); }
-    html, body, [class*="css"] { font-family:'DM Sans',sans-serif; }
+      radial-gradient(circle at 86% 5%, rgba(243,168,78,.15), transparent 24rem),
+      radial-gradient(circle at 10% 70%, rgba(78,147,104,.12), transparent 28rem),
+      linear-gradient(135deg, #0b1110 0%, #101916 55%, #0c1411 100%); color:var(--ink); }
+    html, body, [class*="css"] { font-family:'DM Sans',sans-serif; color:var(--ink); }
     h1, h2, h3 { font-family:'Newsreader',serif !important; letter-spacing:-.02em; }
-    .hero { border:1px solid rgba(45,90,60,.16); border-radius:28px; padding:2.6rem 3rem;
-      background:linear-gradient(120deg,rgba(255,255,255,.82),rgba(223,233,220,.72));
-      box-shadow:0 24px 70px rgba(40,60,44,.10); margin-bottom:1.25rem; }
-    .eyebrow { color:var(--fern); font-size:.76rem; font-weight:700; letter-spacing:.14em;
+    .hero { border:1px solid var(--line); border-radius:28px; padding:2.6rem 3rem;
+      background:linear-gradient(120deg,rgba(27,43,37,.97),rgba(17,29,24,.96));
+      box-shadow:0 24px 70px rgba(0,0,0,.28); margin-bottom:1.25rem; }
+    .eyebrow { color:var(--amber); font-size:.76rem; font-weight:700; letter-spacing:.14em;
       text-transform:uppercase; }
     .hero h1 { font-size:3.25rem; line-height:.95; margin:.45rem 0 .75rem; color:var(--ink); }
-    .hero p { max-width:760px; font-size:1.03rem; color:#4b584e; }
-    .metric-card { background:rgba(255,255,255,.72); border:1px solid rgba(45,90,60,.13);
-      border-radius:18px; padding:1rem 1.15rem; min-height:104px; }
-    .source-card { background:rgba(255,255,255,.72); border-left:4px solid var(--amber);
+    .hero p { max-width:760px; font-size:1.03rem; color:var(--muted); }
+    [data-testid="stMetric"] { background:var(--panel-raised); border:1px solid var(--line);
+      border-radius:16px; padding:1rem 1.15rem; min-height:104px; }
+    [data-testid="stMetricLabel"] p { color:var(--muted) !important; font-size:.78rem !important; }
+    [data-testid="stMetricValue"], [data-testid="stMetricValue"] * { color:var(--ink) !important; }
+    .source-card { background:linear-gradient(135deg,rgba(27,43,37,.98),rgba(20,32,28,.98)); border:1px solid var(--line); border-left:4px solid var(--amber);
       border-radius:4px 16px 16px 4px; padding:1rem 1.2rem; margin:.65rem 0; }
-    .source-card a { color:var(--fern); font-weight:700; text-decoration:none; }
-    [data-testid="stSidebar"] { background:#172019; }
-    [data-testid="stSidebar"] * { color:#f5f1e7; }
+    .source-card a { color:#9bdab0; font-weight:700; text-decoration:none; }
+    .source-card small { color:var(--muted); }
+    [data-testid="stSidebar"] { background:linear-gradient(180deg,#14201c 0%,#0e1713 100%); border-right:1px solid var(--line); }
+    [data-testid="stSidebar"] * { color:var(--ink); }
+    [data-testid="stSidebar"] [data-baseweb="select"] > div { background:#0b1110 !important; border-color:var(--line) !important; }
     .stTabs [data-baseweb="tab-list"] { gap:.45rem; }
-    .stTabs [data-baseweb="tab"] { border-radius:999px; padding:.65rem 1rem; background:#e7ede3; }
+    .stTabs [data-baseweb="tab"] { border-radius:999px; padding:.65rem 1rem; background:var(--panel); color:var(--muted); }
+    .stTabs [aria-selected="true"] { background:var(--panel-raised) !important; color:var(--ink) !important; }
+    [data-testid="stTextArea"] textarea { background:#0b1110 !important; color:var(--ink) !important; border-color:var(--line) !important; }
+    [data-testid="stAlert"] { border-radius:14px; }
     </style>
     """,
     unsafe_allow_html=True,
@@ -118,10 +127,10 @@ with st.sidebar:
     )
     top_k = st.slider("Evidence excerpts", 3, 10, 6)
     rewrite_query = st.toggle("LLM query rewrite", value=False, disabled=not settings.groq_api_key)
-    st.caption(
-        "LLM answering is active." if settings.groq_api_key else
-        "Retrieval preview mode. Add GROQ_API_KEY for generated answers."
-    )
+    if settings.groq_api_key:
+        st.success("AI evidence synthesis is active via Groq.")
+    else:
+        st.info("Retrieval preview is active. Add GROQ_API_KEY in app secrets for generated answers.")
     st.divider()
     st.markdown(f"**{summary['works']}** open scholarly works")
     st.markdown(f"**{summary['chunks']}** searchable evidence chunks")
