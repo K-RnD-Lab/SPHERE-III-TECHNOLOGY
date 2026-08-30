@@ -1,0 +1,2 @@
+# Streamlit Cloud deployment manifest for the T3-R3 Evidence Gap Navigator module.
+-e "./T3 - Dashboards, Interfaces & Open Infrastructure/T3-R3 - Evidence Gap Navigator/R3a-evidence-gap-navigator"
