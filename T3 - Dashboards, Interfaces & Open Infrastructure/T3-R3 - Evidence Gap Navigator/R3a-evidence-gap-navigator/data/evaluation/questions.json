@@ -1,0 +1,114 @@
+[
+  {
+    "id": "q01",
+    "question": "Which frameworks automate evaluation of retrieval-augmented generation systems?",
+    "relevant_work_ids": ["W4411630045", "W4401042808"],
+    "answer_notes": "RAGAS and ARES are automated evaluation frameworks for RAG pipelines.",
+    "tags": ["evaluation", "frameworks"]
+  },
+  {
+    "id": "q02",
+    "question": "How can retrieval quality be evaluated separately from answer generation quality in RAG?",
+    "relevant_work_ids": ["W4400526126", "W4411630045"],
+    "answer_notes": "Evaluate retrieval with ranking and relevance measures before judging grounded answer quality.",
+    "tags": ["evaluation", "retrieval"]
+  },
+  {
+    "id": "q03",
+    "question": "What benchmarks compare large language models in retrieval-augmented generation settings?",
+    "relevant_work_ids": ["W4393147129", "W4403560390"],
+    "answer_notes": "Benchmark studies and CRUD-RAG compare RAG behavior across models and task types.",
+    "tags": ["benchmarks", "llm"]
+  },
+  {
+    "id": "q04",
+    "question": "What are common failure points when engineering a production RAG system?",
+    "relevant_work_ids": ["W4399530612"],
+    "answer_notes": "RAG systems fail at ingestion, retrieval, context construction, generation, and evaluation boundaries.",
+    "tags": ["failure-modes", "production"]
+  },
+  {
+    "id": "q05",
+    "question": "Which practical design choices are considered best practices for retrieval-augmented generation?",
+    "relevant_work_ids": ["W4404782883", "W4389984066"],
+    "answer_notes": "Best practices include fit-for-purpose chunking, retrieval selection, reranking, evaluation, and grounded generation.",
+    "tags": ["best-practices", "design"]
+  },
+  {
+    "id": "q06",
+    "question": "How does active retrieval decide when a language model should retrieve additional evidence?",
+    "relevant_work_ids": ["W4389519118", "W4402671152"],
+    "answer_notes": "Active and dynamic retrieval trigger searches according to the model's information needs during generation.",
+    "tags": ["active-retrieval", "adaptive-rag"]
+  },
+  {
+    "id": "q07",
+    "question": "What benefits can knowledge graphs add to retrieval-augmented generation?",
+    "relevant_work_ids": ["W4416379250", "W4404954244", "W4411119292"],
+    "answer_notes": "Knowledge graphs can support structured multi-hop retrieval, explainability, and relation-aware grounding.",
+    "tags": ["graph-rag", "knowledge-graphs"]
+  },
+  {
+    "id": "q08",
+    "question": "How does hybrid retrieval combine vector search and knowledge graphs for domain question answering?",
+    "relevant_work_ids": ["W4404351611", "W4407856367"],
+    "answer_notes": "Hybrid RAG combines complementary lexical, dense, or graph signals to improve domain coverage and precision.",
+    "tags": ["hybrid-search", "domain-rag"]
+  },
+  {
+    "id": "q09",
+    "question": "What privacy risks arise when retrieval-augmented generation uses external or sensitive knowledge bases?",
+    "relevant_work_ids": ["W4402670423"],
+    "answer_notes": "Privacy risks include memorization, leakage through retrieval, sensitive context exposure, and unsafe access paths.",
+    "tags": ["privacy", "risk"]
+  },
+  {
+    "id": "q10",
+    "question": "Can retrieval-augmented generation reduce hallucinations in structured model outputs?",
+    "relevant_work_ids": ["W4401042735"],
+    "answer_notes": "Grounding structured generation in retrieved evidence can reduce unsupported output, but requires evaluation.",
+    "tags": ["hallucination", "structured-output"]
+  },
+  {
+    "id": "q11",
+    "question": "How has retrieval-augmented generation been evaluated for medical question answering?",
+    "relevant_work_ids": ["W4402670290", "W4406421570", "W4409157497"],
+    "answer_notes": "Medical RAG evaluations examine factuality, clinical relevance, safety, and generalizability across models and domains.",
+    "tags": ["healthcare", "evaluation"]
+  },
+  {
+    "id": "q12",
+    "question": "What does the literature report about RAG chatbots in education?",
+    "relevant_work_ids": ["W4410362031", "W4409348640"],
+    "answer_notes": "Education surveys cover tutoring, institutional support, grounded course assistance, and associated quality risks.",
+    "tags": ["education", "applications"]
+  },
+  {
+    "id": "q13",
+    "question": "How can iterative retrieval and generation improve a RAG pipeline?",
+    "relevant_work_ids": ["W4389520468", "W4404622689"],
+    "answer_notes": "Iterative approaches refine retrieval from intermediate generation or follow-up questions to close evidence gaps.",
+    "tags": ["iterative-rag", "query-refinement"]
+  },
+  {
+    "id": "q14",
+    "question": "When is retrieval-augmented generation preferable to fine-tuning for less popular knowledge?",
+    "relevant_work_ids": ["W4392487838"],
+    "answer_notes": "RAG can be preferable when knowledge is sparse, changing, attributable, or easier to update externally than in model weights.",
+    "tags": ["fine-tuning", "comparison"]
+  },
+  {
+    "id": "q15",
+    "question": "What recent surveys provide a broad taxonomy of retrieval-augmented generation methods?",
+    "relevant_work_ids": ["W4389984066", "W4401857375", "W4284670538", "W4226069413"],
+    "answer_notes": "Recent surveys organize RAG by retrieval, augmentation, generation, evaluation, and application design choices.",
+    "tags": ["survey", "taxonomy"]
+  },
+  {
+    "id": "q16",
+    "question": "How is retrieval-augmented generation applied to cybersecurity knowledge evaluation?",
+    "relevant_work_ids": ["W4402811916", "W4387156782"],
+    "answer_notes": "Cybersecurity work uses RAG datasets and security-domain corpora to evaluate knowledge grounding and question answering.",
+    "tags": ["cybersecurity", "benchmark"]
+  }
+]

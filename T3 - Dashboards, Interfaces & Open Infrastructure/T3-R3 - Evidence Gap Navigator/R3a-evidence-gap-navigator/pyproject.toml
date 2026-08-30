@@ -1,0 +1,41 @@
+[build-system]
+requires = ["setuptools>=75,<81"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "evidence-gap-navigator"
+version = "0.1.0"
+description = "A retrieval-evaluated RAG assistant for navigating evidence on RAG evaluation and monitoring."
+readme = "README.md"
+requires-python = ">=3.11,<3.14"
+license = {text = "MIT"}
+authors = [{name = "Oksana Kolisnyk"}]
+dependencies = [
+  "dlt[duckdb]>=1.15,<2",
+  "groq>=0.31,<1",
+  "httpx>=0.28,<1",
+  "numpy>=1.26,<3",
+  "pandas>=2.2,<3",
+  "plotly>=6.2,<7",
+  "pydantic>=2.11,<3",
+  "python-dotenv>=1.1,<2",
+  "rank-bm25==0.2.2",
+  "scikit-learn>=1.6,<2",
+  "sentence-transformers>=5.1,<6",
+  "streamlit>=1.48,<2",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=8.4,<9", "ruff>=0.12,<1"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py311"
+

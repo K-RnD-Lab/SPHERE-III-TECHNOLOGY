@@ -1,0 +1,10 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+authors:
+  - family-names: Kolisnyk
+    given-names: Oksana
+title: "Evidence Gap Navigator"
+version: 0.1.0
+date-released: 2026-08-30
+license: MIT
+repository-code: "https://github.com/K-RnD-Lab/SPHERE-III-TECHNOLOGY/tree/main/T3%20-%20Dashboards%2C%20Interfaces%20%26%20Open%20Infrastructure/T3-R3%20-%20Evidence%20Gap%20Navigator/R3a-evidence-gap-navigator"

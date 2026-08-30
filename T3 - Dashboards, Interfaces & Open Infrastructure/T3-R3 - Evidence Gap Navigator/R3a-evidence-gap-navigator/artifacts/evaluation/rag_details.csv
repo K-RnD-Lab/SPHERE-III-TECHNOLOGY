@@ -1,0 +1,74 @@
+question_id,prompt_version,groundedness,relevance,completeness,citation_quality,rationale,answer
+q01,v1,2,3,2,3,"The answer is incomplete as it cuts off mid-sentence. It correctly identifies ARES from the evidence but hallucinates 'Auepora' as a framework (the text describes it as a process/survey overview, not necessarily a software framework like ARES). Crucially, it fails to mention RAGAS, which is in the reference notes but missing from the provided evidence snippets, leading to an incomplete answer relative to the ground truth.","Based on the supplied evidence, the following frameworks and processes are identified regarding the automation of evaluation for Retrieval-Augmented Generation (RAG) systems:
+
+**Established Findings**
+*   **ARES**: This is explicitly identified as an ""Automated Evaluation Framework for Retrieval-Augmented Generation Systems"" [1].
+*   **Auepora**: The evidence describes ""A Unified Evaluation Process of RAG (Auepora)"" which aims to provide a comprehensive overview of the evaluation and benchmarks of RAG systems [3].
+
+**Limitations and Context**
+*   The evidence notes that evaluating RAG systems poses unique challenges due to their hybrid structure and reliance on dynamic knowledge sources [3].
+*   While RAG mitigates limitations such as inaccuracies and hallucinations found in static LLMs, the evaluation of these systems requires examining quantifiable metrics for both retrieval and generation components, such as relevance, accuracy, and faithfulness [2, 3].
+
+**Open Evidence Gaps**
+*   The provided excerpts do not list other specific named frameworks beyond A"
+q02,v1,2,3,2,2,"The answer is incomplete (cuts off mid-sentence). It hallucinates specific details about the 'eRAG' method (e.g., 'Document-Level Annotation', 'Relevance Definition') that are not present in the provided abstract [1], which only mentions individual document utilization. It fails to incorporate the reference note's instruction to use ranking and relevance measures before judging grounded answer quality.","Based on the provided evidence, here is the evaluation of how retrieval quality can be assessed separately from answer generation quality in Retrieval-Augmented Generation (RAG) systems.
+
+### Established Findings
+
+**1. The eRAG Method for Decoupled Evaluation**
+The primary method for evaluating retrieval quality separately from generation quality is the **eRAG** approach [1]. This method addresses the limitation that traditional end-to-end evaluation is computationally expensive and that standard query-document relevance labels show only a small correlation with downstream RAG performance [1]. The eRAG process involves:
+*   **Individual Document Utilization:** Each document in the retrieval list is individually utilized by the Large Language Model (LLM) within the RAG system [1].
+*   **Document-Level Annotation:** The output generated for each specific document is evaluated against downstream task ground truth labels [1].
+*   **Relevance Definition:** The downstream performance resulting from each individual document serves as its relevance label, allowing for document-level annotations using various downstream task metrics [1].
+
+**2. Limit"
+q03,v1,1,2,2,1,"The answer hallucinates the name 'RGB' and specific evaluation metrics (Noise robustness, etc.) which are not present in the provided truncated evidence. It incorrectly attributes these details to citations [1, 2] which only contain titles and partial abstracts lacking such specifics.","Based on the provided scholarly evidence, the following benchmarks are established for comparing large language models in retrieval-augmented generation (RAG) settings:
+
+**Established Findings**
+
+*   **Retrieval-Augmented Generation Benchmark (RGB):** This benchmark was established to systematically investigate the impact of RAG on large language models, addressing a lack of rigorous evaluation in existing research [1, 2]. It evaluates LLMs across four fundamental abilities required for RAG:
+    *   Noise robustness
+    *   Negative rejection
+    *   Information integration
+    *   Counterfactual robustness [1, 2].
+*   **CRUD-RAG:** This is a comprehensive benchmark specifically designed for Chinese RAG systems [3]. It aims to address limitations in existing benchmarks that primarily focus on question-answering applications and often neglect other scenarios where RAG could be beneficial [3].
+
+**Limitations of Existing Evaluation Methods**
+
+*   **Lack of Rigorous Evaluation:** Prior to the introduction of benchmarks like RGB, existing research lacked rigorous evaluation"
+q04,v1,1,2,1,1,"The answer is severely flawed. It hallucinates specific failure points (e.g., 'Misinterpretation of question context', 'Incorrect relation mapping') that are not present in the provided abstracts. It also cuts off mid-sentence. Crucially, it fails to mention the specific failure boundaries listed in the reference notes (ingestion, retrieval, context construction, generation, evaluation), instead relying on generic or fabricated details.","Based on the provided scholarly evidence, here are the common failure points when engineering a production Retrieval Augmented Generation (RAG) system, categorized by established findings, limitations, and open evidence gaps.
+
+### Established Findings: Specific Failure Points
+
+**1. Inherent Limitations of Information Retrieval and LLMs**
+RAG systems suffer from limitations inherent to information retrieval systems and their reliance on Large Language Models (LLMs) [1]. While RAG aims to reduce hallucinations, link sources, and remove the need for metadata annotation, these goals are often compromised by these underlying limitations [1].
+
+**2. Knowledge Graph (KG)-Based RAG Failures**
+In KG-based RAG systems, even when necessary factual knowledge is available, state-of-the-art solutions frequently fail to deliver accurate and reliable answers [2]. Specific failure points identified in this context include:
+*   Misinterpretation of question context [2].
+*   Incorrect relation mapping [2].
+*   Ineffective handling of ambiguity (noted as ""ineffective amb"" in the"
+q01,v2,2,3,2,3,"The answer fails to mention RAGAS, which is explicitly listed in the reference notes as an automated evaluation framework. It incorrectly characterizes 'Auepora' from the retrieved evidence as a framework/process rather than noting it is a survey title, and it omits the primary correct answer (RAGAS) provided in the ground truth.","1. Evidence-backed synthesis
+Based on the provided evidence, **ARES** is explicitly identified as an automated evaluation framework designed specifically for Retrieval-Augmented Generation (RAG) systems [1]. The framework was introduced by Saad-Falcon et al. in 2024 and focuses on automating the evaluation process for these hybrid systems [1].
+
+Additionally, the literature highlights the existence of broader evaluation methodologies and surveys that address the automation and standardization of RAG assessment. For instance, the ""Unified Evaluation Process of RAG"" (Auepora) is cited as a comprehensive overview that examines quantifiable metrics for both retrieval and generation components, such as relevance, accuracy, and faithfulness [3]. While Auepora is described as a survey and process overview rather than a software framework in the same vein as ARES, it contributes to the structured evaluation of RAG systems by analyzing current benchmarks and ground truth pairs [3].
+
+2. Methodological caveats
+The evidence indicates that evaluating RAG systems poses unique challenges due to their hybrid structure and reliance on dynamic knowledge"
+q02,v2,5,5,4,5,"The answer is well-grounded in the provided references, specifically citing [1] for the eRAG method which isolates retrieval evaluation. It correctly identifies the limitations of traditional methods mentioned in [1]. The response is cut off at the end, slightly reducing completeness, but the core answer is accurate and relevant.","1. Evidence-backed synthesis
+To evaluate retrieval quality separately from answer generation quality in Retrieval-Augmented Generation (RAG) systems, researchers propose moving beyond traditional end-to-end evaluation methods, which are computationally expensive and often fail to isolate the specific contribution of the retrieval component [1]. A primary challenge is that standard evaluation based on query-document relevance labels shows only a small correlation with the RAG system's downstream performance [1].
+
+To address this, the eRAG approach proposes a novel method where each document in the retrieval list is individually utilized by the large language model (LLM) within the RAG system [1]. The output generated for each specific document is then evaluated against downstream task ground truth labels [1]. In this framework, the downstream performance associated with each document serves as its relevance label, allowing for document-level annotations that isolate retrieval effectiveness from the generative process [1].
+
+While other studies highlight the importance of retrieval quality, such as the impact of fair ranking on the exposure of relevant items and source attribution [2], or the interference caused by invalid or misused"
+q03,v2,1,2,2,1,"The answer hallucinates the name 'RGB' and specific evaluation metrics (noise robustness, etc.) not present in the provided text. It misattributes the general study in [1,2] as a specific benchmark named RGB, whereas the text only describes a systematic investigation. While CRUD-RAG is correctly identified, the severe fabrication regarding the first benchmark makes the response unreliable.","1. Evidence-backed synthesis
+Current research identifies specific benchmarks designed to evaluate Large Language Models (LLMs) within Retrieval-Augmented Generation (RAG) settings, addressing the lack of rigorous evaluation in existing literature [1, 2]. Two primary benchmarks are highlighted in the provided evidence:
+
+*   **Retrieval-Augmented Generation Benchmark (RGB):** This benchmark was established to systematically investigate the impact of RAG on different LLMs and identify capability bottlenecks [1, 2]. RGB evaluates LLMs across four fundamental abilities required for effective RAG: noise robustness, negative rejection, information integration, and counterfactual robustness [1, 2].
+*   **CRUD-RAG:** This is a comprehensive benchmark specifically designed for Chinese LLMs in RAG settings [3]. It aims to address the limitation of most existing benchmarks, which primarily focus on question-answering applications and often neglect other scenarios where RAG is beneficial [3]. CRUD-RAG seeks to evaluate the entire RAG pipeline, including the impact of external knowledge base construction"
+q04,v2,2,3,2,2,"The answer is incomplete (cuts off mid-sentence). It hallucinates specific failure modes like 'incorrect relation mapping' and 'misinterpretation of question context' which are not present in the provided abstracts. It fails to list the specific failure points mentioned in the reference notes (ingestion, context construction, etc.), instead offering vague generalizations.","1. Evidence-backed synthesis
+Based on the provided excerpts, common failure points in engineering production RAG systems can be categorized into retrieval inaccuracies, LLM integration issues, and systemic evaluation gaps.
+
+*   **Retrieval and Knowledge Integration Failures:** RAG systems suffer from limitations inherent to information retrieval systems [1]. Specific failure modes include the misinterpretation of question context, incorrect relation mapping, and ineffective handling of ambiguity, particularly when integrating structured knowledge sources like knowledge graphs [2]. Furthermore, failures often stem from the construction of the external knowledge base and the retrieval component itself, which are frequently overlooked in favor of focusing solely on the LLM or knowledge-intensive scenarios [3].
+*   **LLM-Related Limitations:** Despite the goal of reducing hallucinated responses, RAG systems remain reliant on LLMs, which introduces inherent limitations [1]. Current state-of-the-art solutions often fail to deliver accurate and reliable answers even when the necessary factual knowledge is successfully retrieved, indicating a disconnect between retrieval success and generation accuracy [2].
+*   **Evaluation and Benchmarking"

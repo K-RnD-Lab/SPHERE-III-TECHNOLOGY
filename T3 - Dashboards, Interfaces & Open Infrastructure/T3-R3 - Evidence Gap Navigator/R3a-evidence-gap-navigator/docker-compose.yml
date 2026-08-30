@@ -1,0 +1,37 @@
+services:
+  app:
+    build: .
+    ports:
+      - "8501:8501"
+    env_file:
+      - path: .env
+        required: false
+    volumes:
+      - monitoring-data:/app/runtime
+    environment:
+      MONITORING_DB: runtime/monitoring.db
+    restart: unless-stopped
+
+  ingest:
+    build: .
+    profiles: ["tools"]
+    env_file:
+      - path: .env
+        required: false
+    command: ["python", "scripts/ingest.py", "--max-works", "240", "--force-index"]
+    volumes:
+      - ./:/app
+
+  evaluate:
+    build: .
+    profiles: ["tools"]
+    env_file:
+      - path: .env
+        required: false
+    command: ["python", "scripts/evaluate_retrieval.py"]
+    volumes:
+      - ./:/app
+
+volumes:
+  monitoring-data:
+
